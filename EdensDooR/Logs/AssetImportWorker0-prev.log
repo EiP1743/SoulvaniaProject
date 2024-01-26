@@ -15,7 +15,7 @@ D:/SoulvaniaProject/EdensDooR
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-51331
+54299
 Successfully changed project path to: D:/SoulvaniaProject/EdensDooR
 D:/SoulvaniaProject/EdensDooR
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,11 +47,11 @@ D:/SoulvaniaProject/EdensDooR
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [17828] Host "[IP] 192.168.2.136 [Port] 0 [Flags] 2 [Guid] 3061426566 [EditorId] 3061426566 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-0BMJ3B6K) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [3372] Host "[IP] 192.168.2.136 [Port] 0 [Flags] 2 [Guid] 1325194209 [EditorId] 1325194209 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-0BMJ3B6K) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [17828] Host "[IP] 192.168.2.136 [Port] 0 [Flags] 2 [Guid] 3061426566 [EditorId] 3061426566 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-0BMJ3B6K) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [3372] Host "[IP] 192.168.2.136 [Port] 0 [Flags] 2 [Guid] 1325194209 [EditorId] 1325194209 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-0BMJ3B6K) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 113.62 ms, found 6 plugins.
+Refreshing native plugins compatible for Editor in 144.11 ms, found 6 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.23f1 (213b516bf396)
 [Subsystems] Discovering subsystems at path D:/2021.3.23f1/Editor/Data/Resources/UnitySubsystems
@@ -68,670 +68,90 @@ Initialize mono
 Mono path[0] = 'D:/2021.3.23f1/Editor/Data/Managed'
 Mono path[1] = 'D:/2021.3.23f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'D:/2021.3.23f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56348
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56240
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/2021.3.23f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001430 seconds.
+Registered in 0.001382 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 109.27 ms, found 6 plugins.
+Refreshing native plugins compatible for Editor in 119.70 ms, found 6 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.652 seconds
+- Completed reload, in  0.744 seconds
 Domain Reload Profiling:
-	ReloadAssembly (652ms)
-		BeginReloadAssembly (99ms)
+	ReloadAssembly (745ms)
+		BeginReloadAssembly (128ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (473ms)
-			LoadAssemblies (99ms)
+		EndReloadAssembly (514ms)
+			LoadAssemblies (127ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (109ms)
+			SetupTypeCache (125ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (32ms)
-			SetupLoadedEditorAssemblies (282ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (308ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
+				InitializePlatformSupportModulesInManaged (7ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (109ms)
-				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (119ms)
-				ProcessInitializeOnLoadMethodAttributes (47ms)
+				RefreshPlugins (120ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (128ms)
+				ProcessInitializeOnLoadMethodAttributes (51ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.005666 seconds.
+Registered in 0.007946 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image D:\SoulvaniaProject\EdensDooR\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image D:\SoulvaniaProject\EdensDooR\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 107.28 ms, found 6 plugins.
+Refreshing native plugins compatible for Editor in 128.53 ms, found 6 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.350 seconds
+- Completed reload, in  1.503 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1351ms)
-		BeginReloadAssembly (131ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (16ms)
-		EndReloadAssembly (1123ms)
-			LoadAssemblies (108ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (253ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (72ms)
-			SetupLoadedEditorAssemblies (672ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (107ms)
-				BeforeProcessingInitializeOnLoad (92ms)
-				ProcessInitializeOnLoadAttributes (424ms)
-				ProcessInitializeOnLoadMethodAttributes (42ms)
-				AfterProcessingInitializeOnLoad (3ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-========================================================================
-Worker process is ready to serve import requests
-Shader 'Custom/RainShader': fallback shader 'Particles/Alpha Blended' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 1.07 ms, found 6 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4301 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 56 unused Assets / (270.2 KB). Loaded Objects now: 4770.
-Memory consumption went from 179.5 MB to 179.2 MB.
-Total: 3.858100 ms (FindLiveObjects: 0.326200 ms CreateObjectMapping: 0.313400 ms MarkObjects: 3.056400 ms  DeleteObjects: 0.160400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 72283.210273 seconds.
-  path: Assets/SkySeries Freebie/ExampleScenes/SceneObjects/DemoObjects.prefab
-  artifactKey: Guid(88c20de6c1dc0f04abeaffaac0a9a6cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SkySeries Freebie/ExampleScenes/SceneObjects/DemoObjects.prefab using Guid(88c20de6c1dc0f04abeaffaac0a9a6cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ded16caac1881ef0e2862ad80d5237d') in 0.344716 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.050796 seconds.
-  path: Assets/Cainos/Pixel Art Platformer - Village House/Prefab/PF House 03.prefab
-  artifactKey: Guid(097195a915d3ec54cb00c29b72e842be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cainos/Pixel Art Platformer - Village House/Prefab/PF House 03.prefab using Guid(097195a915d3ec54cb00c29b72e842be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89d4921d07c749bbddf1cfb7748f56c8') in 0.103776 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Cainos/Pixel Art Platformer - Village House/Prefab/PF House 06.prefab
-  artifactKey: Guid(368cb0481cea117489c150c28b2ab0c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cainos/Pixel Art Platformer - Village House/Prefab/PF House 06.prefab using Guid(368cb0481cea117489c150c28b2ab0c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7686c85547d945c570001389f8fe6b5') in 0.029511 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Cainos/Pixel Art Platformer - Village House/Prefab/PF House 08.prefab
-  artifactKey: Guid(9cac384616e7c3742adf4682400336f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cainos/Pixel Art Platformer - Village House/Prefab/PF House 08.prefab using Guid(9cac384616e7c3742adf4682400336f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7334dd4415556e7b9936abd0490d970c') in 0.025511 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.234002 seconds.
-  path: Assets/Cainos/Pixel Art Platformer - Village House/Prefab/PF House 09.prefab
-  artifactKey: Guid(2e0c1156bda75f1419f2f594475a587b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cainos/Pixel Art Platformer - Village House/Prefab/PF House 09.prefab using Guid(2e0c1156bda75f1419f2f594475a587b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b43dc6f13c7fac4cc3727b9f76dd9189') in 0.022298 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Apple 01.prefab
-  artifactKey: Guid(d732c433f052247478d37fac6cedfe30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Apple 01.prefab using Guid(d732c433f052247478d37fac6cedfe30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa6c1cd9ee1733a44712684ef5fd20fc') in 0.011433 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.015163 seconds.
-  path: Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Archery Target 01.prefab
-  artifactKey: Guid(55e220e9324021f4aba5a837610ec52e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Archery Target 01.prefab using Guid(55e220e9324021f4aba5a837610ec52e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3e1a67886b6623c7e36c724ca15fcdb') in 0.010400 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.335938 seconds.
-  path: Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Banner.prefab
-  artifactKey: Guid(5fd9ed34f1f755643b41c4b41d7077e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Banner.prefab using Guid(5fd9ed34f1f755643b41c4b41d7077e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26907b05f04a764dac547c2efd613693') in 0.009648 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.014103 seconds.
-  path: Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Barricade.prefab
-  artifactKey: Guid(e0868e2099f22704cb8f4781f4dffe5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Barricade.prefab using Guid(e0868e2099f22704cb8f4781f4dffe5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '376926d5ae9c803faf0327ac70e15bf3') in 0.010378 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.016114 seconds.
-  path: Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Billboard.prefab
-  artifactKey: Guid(6ecf5bcec20adfa429a788f660f29ff5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Billboard.prefab using Guid(6ecf5bcec20adfa429a788f660f29ff5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c6219de9e0f1090aa33913c5c96d1f8') in 0.010072 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.254209 seconds.
-  path: Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Bread 01.prefab
-  artifactKey: Guid(5b863081ef08aeb42abb2f87baf72b1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Bread 01.prefab using Guid(5b863081ef08aeb42abb2f87baf72b1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ebd135dc45e17887aa5bf12a1ab52bd') in 0.011456 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.024174 seconds.
-  path: Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Bucket 01.prefab
-  artifactKey: Guid(75e84fbdb66ab5647a06b786c6662307) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Bucket 01.prefab using Guid(75e84fbdb66ab5647a06b786c6662307) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd781721854e0e1da1ba1fba99fef3b45') in 0.011111 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Bush 03.prefab
-  artifactKey: Guid(de570bfbf1a49ba4c9575930f7db6bae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Bush 03.prefab using Guid(de570bfbf1a49ba4c9575930f7db6bae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc8bcc77aabd6e7e698dbfc6289953af') in 0.011188 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.019738 seconds.
-  path: Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Campfire 01.prefab
-  artifactKey: Guid(e8bae36b607017047ace9061609051d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Campfire 01.prefab using Guid(e8bae36b607017047ace9061609051d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0e278810e57a713f035ccbe4fb8e905') in 0.016766 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.211034 seconds.
-  path: Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Chair.prefab
-  artifactKey: Guid(bb67ae3035abce24aa87122c96acac22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Chair.prefab using Guid(bb67ae3035abce24aa87122c96acac22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e839af87a0d7937d5803dc981ca497a') in 0.010876 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.016708 seconds.
-  path: Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Chest Iron.prefab
-  artifactKey: Guid(5abf20f0457997348bd80242fe916388) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Chest Iron.prefab using Guid(5abf20f0457997348bd80242fe916388) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b7fcffd268c7f535c1a837af0c6793b') in 0.018173 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Chest Wooden.prefab
-  artifactKey: Guid(f98d0f39fcc67a34f844abd8a50f2c03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Chest Wooden.prefab using Guid(f98d0f39fcc67a34f844abd8a50f2c03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85c1d8fcddf1f8a2f4fdb688cc8bd0e9') in 0.012562 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.005089 seconds.
-  path: Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Crate Large.prefab
-  artifactKey: Guid(78538c3cab4610f4d914a10e71bdf46b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Crate Large.prefab using Guid(78538c3cab4610f4d914a10e71bdf46b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62e4297fd5766a764817405cc4ea7b67') in 0.012317 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.239805 seconds.
-  path: Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Cup.prefab
-  artifactKey: Guid(4d8ad400922c4a343911784077c26568) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Cup.prefab using Guid(4d8ad400922c4a343911784077c26568) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b74e555f1ad2db0484614dc520a1860') in 0.010002 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.004261 seconds.
-  path: Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Fence A.prefab
-  artifactKey: Guid(8cc938fe21b426a4daedf2f6c7e34c80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Fence A.prefab using Guid(8cc938fe21b426a4daedf2f6c7e34c80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cee57095b9194f9f8be8142fe35ababd') in 0.014124 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.003415 seconds.
-  path: Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Fire Bowl.prefab
-  artifactKey: Guid(56e2a525e0fbd93419c9b313c362934d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Fire Bowl.prefab using Guid(56e2a525e0fbd93419c9b313c362934d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78a01d9673bdc434bd9bdb93d5dc4bb4') in 0.013226 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Grain Box.prefab
-  artifactKey: Guid(945a24dea7767f846ad8007110a371f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Grain Box.prefab using Guid(945a24dea7767f846ad8007110a371f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e5642eceed59d53dd3d34f380ef1f7a') in 0.010531 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.224894 seconds.
-  path: Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Grass 01.prefab
-  artifactKey: Guid(70e4f80265d902443a6249697d613d81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Grass 01.prefab using Guid(70e4f80265d902443a6249697d613d81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e12e9c9cc2c460bdc32cdfae363991d2') in 0.009455 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Grass 04.prefab
-  artifactKey: Guid(406ae01b7bf025d478da7b57dfe1715c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Grass 04.prefab using Guid(406ae01b7bf025d478da7b57dfe1715c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d11c5693319ccb3a51e8364e9a6f319') in 0.010610 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.004911 seconds.
-  path: Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Grass 05.prefab
-  artifactKey: Guid(72a905bcc22e3e443be6f48bfb173c00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Grass 05.prefab using Guid(72a905bcc22e3e443be6f48bfb173c00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ed86036f0e1787feb2e711edb8fa5c9') in 0.014238 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Grass 06.prefab
-  artifactKey: Guid(ed925410cd097664ea4b9e3e758f02a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Grass 06.prefab using Guid(ed925410cd097664ea4b9e3e758f02a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3182897c2d47e90812f4823637435141') in 0.010467 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.205170 seconds.
-  path: Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Grass 09.prefab
-  artifactKey: Guid(0cadafc44435d2649b8aa171d49f61d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Grass 09.prefab using Guid(0cadafc44435d2649b8aa171d49f61d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29797b6071a1c356da8cb768d567beaf') in 0.009237 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.016917 seconds.
-  path: Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Gravestone 02.prefab
-  artifactKey: Guid(f39426a001c71d84999be2ee63c7d322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Gravestone 02.prefab using Guid(f39426a001c71d84999be2ee63c7d322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9eaad1bd528bd6db41bcc7942f7d945') in 0.011921 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Gunny Bag 02.prefab
-  artifactKey: Guid(25f9f2235afcaca429284c9aec8982df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Gunny Bag 02.prefab using Guid(25f9f2235afcaca429284c9aec8982df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3632802ce3ba0208c7669b4b62d291c9') in 0.011313 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Hay Fork.prefab
-  artifactKey: Guid(3f221dff797bcc04f93920ab6fb086c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Hay Fork.prefab using Guid(3f221dff797bcc04f93920ab6fb086c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a436468e90a3eab0fad1ea9f2aff4ad8') in 0.010081 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Hammer.prefab
-  artifactKey: Guid(e496de2bd698f6c409bd2a9bceda980e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Hammer.prefab using Guid(e496de2bd698f6c409bd2a9bceda980e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6a32f0a894ea5292f4f0026c8c6b97f') in 0.008872 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.170349 seconds.
-  path: Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Hay Pile.prefab
-  artifactKey: Guid(337bf7fb32e777b41a8411ca5d35e56f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Hay Pile.prefab using Guid(337bf7fb32e777b41a8411ca5d35e56f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '651fe87ff0a7018e6b013b85d33aaa72') in 0.009926 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.006209 seconds.
-  path: Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Jump Platform 01.prefab
-  artifactKey: Guid(65321bf0311c2eb48be353666f829ca1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Jump Platform 01.prefab using Guid(65321bf0311c2eb48be353666f829ca1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4885b4c710d90625dfa72eb34f41aceb') in 0.012335 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.010820 seconds.
-  path: Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Ladder 01 Side L.prefab
-  artifactKey: Guid(3373af298f123a849a61f9aefe9ec4c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Ladder 01 Side L.prefab using Guid(3373af298f123a849a61f9aefe9ec4c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b58b4aba0e491a31e124c55795f6bda0') in 0.011269 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Log Bench.prefab
-  artifactKey: Guid(28ae4e85426a2f54a98737a016d4cbc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Log Bench.prefab using Guid(28ae4e85426a2f54a98737a016d4cbc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ea8b9f0d1c3eccf16280cccb72b1868') in 0.010674 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Ladder 02.prefab
-  artifactKey: Guid(7b51376ff9aae694dbc3f515f5737d84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Ladder 02.prefab using Guid(7b51376ff9aae694dbc3f515f5737d84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f560c231e4cd769fe771baa1189076f') in 0.012380 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.182218 seconds.
-  path: Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Obstacle Platform X16.prefab
-  artifactKey: Guid(419378b134eda754c9a1e3bbae048765) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Obstacle Platform X16.prefab using Guid(419378b134eda754c9a1e3bbae048765) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '214ebf8c13cea9554ade4635d2dc997b') in 0.011202 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Obstacle Platform X32.prefab
-  artifactKey: Guid(73a65c758e42a1345bc8efd2d3625ad6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Obstacle Platform X32.prefab using Guid(73a65c758e42a1345bc8efd2d3625ad6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29b9dfe9d5f89cf02677bb50094ecec9') in 0.011245 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.005343 seconds.
-  path: Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Platform 01 L X1.prefab
-  artifactKey: Guid(35ff5f2cc18840a4ca4ecf97ed2779c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Platform 01 L X1.prefab using Guid(35ff5f2cc18840a4ca4ecf97ed2779c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'deafcb44c552a8f4be959c4c968220bb') in 0.011379 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Platform 01 R X2.prefab
-  artifactKey: Guid(948a335f2eab4d944a21f7654ca9e467) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Platform 01 R X2.prefab using Guid(948a335f2eab4d944a21f7654ca9e467) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3fea24fb75f09269485eb62d427b0ba') in 0.012833 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.006148 seconds.
-  path: Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Platform 02 X1.prefab
-  artifactKey: Guid(b66942e8458865e4990a5fc39874e9a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Platform 02 X1.prefab using Guid(b66942e8458865e4990a5fc39874e9a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc986556cab312b3987742562a7b62ce') in 0.018145 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.168116 seconds.
-  path: Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Platform 02 X3.prefab
-  artifactKey: Guid(8f0b414806fcbda47b9f242883104bb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Platform 02 X3.prefab using Guid(8f0b414806fcbda47b9f242883104bb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f70260ae7f92eabca991f0f081a462b0') in 0.013271 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.015123 seconds.
-  path: Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Pot 01.prefab
-  artifactKey: Guid(78c0f168d9274124eaeedea139301a44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Pot 01.prefab using Guid(78c0f168d9274124eaeedea139301a44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82d792b96cf884ce1863f9509f50208c') in 0.011025 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Pumpkin A.prefab
-  artifactKey: Guid(4c7668f32ddf4c843bc8d57bf6b43000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Pumpkin A.prefab using Guid(4c7668f32ddf4c843bc8d57bf6b43000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '607dbb9392f9b7191728770555fb6963') in 0.013080 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Pumpkin B.prefab
-  artifactKey: Guid(c733f14e73fac4e4cbcdf3c827225214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Pumpkin B.prefab using Guid(c733f14e73fac4e4cbcdf3c827225214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '284b677cd4b8c5b9f10c56cf04c8c404') in 0.013884 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Road Sign 01.prefab
-  artifactKey: Guid(bbde5b0f2fde63f47aab9703a1e8e784) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Road Sign 01.prefab using Guid(bbde5b0f2fde63f47aab9703a1e8e784) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '952d0b09f84343b09ec7ae807ed76de4') in 0.020891 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.175268 seconds.
-  path: Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Rock 01.prefab
-  artifactKey: Guid(8dab7379f6c67d9448d4c24d1eace61b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Rock 01.prefab using Guid(8dab7379f6c67d9448d4c24d1eace61b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d7c580eccd1f451a536d9604659edcd') in 0.014922 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.013743 seconds.
-  path: Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Rock 03.prefab
-  artifactKey: Guid(2f54e7022d76f09478e2e1124e212cc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Rock 03.prefab using Guid(2f54e7022d76f09478e2e1124e212cc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b900822753288b0567b0dc0239d56d1c') in 0.011394 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Sign 01.prefab
-  artifactKey: Guid(3c7326a3b793fca45875e5e7474d498c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Sign 01.prefab using Guid(3c7326a3b793fca45875e5e7474d498c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f122d9d568b26ad5ac0e25a57d6c522') in 0.011194 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Slope Platform 01.prefab
-  artifactKey: Guid(49437f4ad0b44f5438b6216b787c82c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Slope Platform 01.prefab using Guid(49437f4ad0b44f5438b6216b787c82c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c557555f3bcc9cc729920e77fcd544fe') in 0.011616 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Spike.prefab
-  artifactKey: Guid(c4728654af6c1b84fb5102e3f29ffb8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Spike.prefab using Guid(c4728654af6c1b84fb5102e3f29ffb8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5284e047e67bbfa35e5a331d98f28b1') in 0.013647 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.205025 seconds.
-  path: Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Stairs X24.prefab
-  artifactKey: Guid(18fa525347f595f4897e2b541ce4ce12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Stairs X24.prefab using Guid(18fa525347f595f4897e2b541ce4ce12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2395c156bd068dd587dcc724acbe234c') in 0.016288 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Stairs X40.prefab
-  artifactKey: Guid(71d1e23306d668041aadae2ec117e0b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Stairs X40.prefab using Guid(71d1e23306d668041aadae2ec117e0b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dffde3ad8ab243288208c668fc3d2c6') in 0.013522 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Stairs X64.prefab
-  artifactKey: Guid(851fb730285011e47b696310dadf3ffb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Stairs X64.prefab using Guid(851fb730285011e47b696310dadf3ffb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b27b529c6ffa36b464b57575982e48bb') in 0.016609 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Statue.prefab
-  artifactKey: Guid(92a08448cd3527a4aaf11bc404e0f1a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Statue.prefab using Guid(92a08448cd3527a4aaf11bc404e0f1a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '401db59f3c079125c826c1fadfe67018') in 0.016441 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.208201 seconds.
-  path: Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Sunflower 01.prefab
-  artifactKey: Guid(295bb10ead83a4d44b8a1398a7f16c99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Sunflower 01.prefab using Guid(295bb10ead83a4d44b8a1398a7f16c99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be0765e61be0f13c75a0f404159f40ea') in 0.015824 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.797339 seconds.
-  path: Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Sunflower 03.prefab
-  artifactKey: Guid(ab2f44b99adf358449c83b74c274b97b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Sunflower 03.prefab using Guid(ab2f44b99adf358449c83b74c274b97b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd7288a902930c8facc7b6ba81917dfd') in 0.012765 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Table.prefab
-  artifactKey: Guid(b78702531cc991540bea14f3518027c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Table.prefab using Guid(b78702531cc991540bea14f3518027c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f18215c598fec698cad8d39a1e864193') in 0.010201 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.017551 seconds.
-  path: Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Training Dummy.prefab
-  artifactKey: Guid(7fc30cd74f5aa724387df7546e0f3d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Training Dummy.prefab using Guid(7fc30cd74f5aa724387df7546e0f3d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dce2a05933d078fba7529fa6095dad7') in 0.011368 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.179504 seconds.
-  path: Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Tree 02.prefab
-  artifactKey: Guid(c5f8f079905bce04f945cd8ff4ba545a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Tree 02.prefab using Guid(c5f8f079905bce04f945cd8ff4ba545a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f4145709d7136e2e5a159d88f155a23') in 0.017205 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.016005 seconds.
-  path: Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Well.prefab
-  artifactKey: Guid(d39672cc18ccd9545840277c51264e6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Well.prefab using Guid(d39672cc18ccd9545840277c51264e6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fbbfccde19b30cad7e5294bb2554601') in 0.019724 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Wheat 04.prefab
-  artifactKey: Guid(e25962a23b0ae06459d988ce85f4476e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Wheat 04.prefab using Guid(e25962a23b0ae06459d988ce85f4476e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8eb95f1c6cf9e146801eb8bcab15d6e5') in 0.016423 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Wheelbarrow.prefab
-  artifactKey: Guid(4c09aa47d6e0e954f899cb8efe5a6816) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Wheelbarrow.prefab using Guid(4c09aa47d6e0e954f899cb8efe5a6816) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c900a7af09da16782d1c6965e089a84d') in 0.012368 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.201385 seconds.
-  path: Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Wine Bottle.prefab
-  artifactKey: Guid(83d9652edf8102948abc7e6551b4db36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Wine Bottle.prefab using Guid(83d9652edf8102948abc7e6551b4db36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ca8da4c75f438a902fff1c22780e0d7') in 0.011375 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.048030 seconds.
-  path: Assets/RainMaker/Prefab/RainPrefab2D.prefab
-  artifactKey: Guid(b046278bb9b6e104790392b566667ba5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RainMaker/Prefab/RainPrefab2D.prefab using Guid(b046278bb9b6e104790392b566667ba5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffef39e369e40c5ebdd775a8f7c97300') in 0.050865 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.224141 seconds.
-  path: Assets/Yoge/Platformer/Dungeon/Prefabs/Torch.prefab
-  artifactKey: Guid(a0e519872b9bda64cab9dbe28cf3f36d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Yoge/Platformer/Dungeon/Prefabs/Torch.prefab using Guid(a0e519872b9bda64cab9dbe28cf3f36d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26ceb9d1e4de50ca2d5b528110bad23b') in 0.094674 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/TX Village Props - Kettle.prefab
-  artifactKey: Guid(5dad1464d7a3246408607532834aec13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/TX Village Props - Kettle.prefab using Guid(5dad1464d7a3246408607532834aec13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4a12725b8f4202784e2d2cc302acb9b') in 0.010387 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 14.414928 seconds.
-  path: Assets/PotionJunkies/7Enemies/Prefab/02_Chimera.prefab
-  artifactKey: Guid(9427ca1d44dc01349a39e7d76baf7ed4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PotionJunkies/7Enemies/Prefab/02_Chimera.prefab using Guid(9427ca1d44dc01349a39e7d76baf7ed4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a96aaf38be42471b6c7f315c9c94d20') in 0.021812 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/PotionJunkies/7Enemies/Prefab/05_Hellhorse.prefab
-  artifactKey: Guid(1ba18e5a85933c34ea90848abe4ebc6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PotionJunkies/7Enemies/Prefab/05_Hellhorse.prefab using Guid(1ba18e5a85933c34ea90848abe4ebc6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38e94c6ea5e7544e0ebba16a6dad1613') in 0.021690 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/PotionJunkies/7Enemies/Prefab/07_Wolf.prefab
-  artifactKey: Guid(c19d705d0c36fa645a7dea4f33418bae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PotionJunkies/7Enemies/Prefab/07_Wolf.prefab using Guid(c19d705d0c36fa645a7dea4f33418bae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '067748fa406d1eb08aae59b3da7152f9') in 0.014290 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 283.215735 seconds.
-  path: Assets/SkySeries Freebie/ExampleScenes/SceneObjects/2_10.mat
-  artifactKey: Guid(eb10b6f571322b443bec8c532c088270) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SkySeries Freebie/ExampleScenes/SceneObjects/2_10.mat using Guid(eb10b6f571322b443bec8c532c088270) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab433bc3f1e6b3a8fab112897158387c') in 0.034133 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Materials/bag_2.mat
-  artifactKey: Guid(5abb31a268416134b86f7d93e7eccb25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Materials/bag_2.mat using Guid(5abb31a268416134b86f7d93e7eccb25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50b5f6a09fc6133db80e7fb9c8a096a4') in 0.009699 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Materials/bookshelf_2.mat
-  artifactKey: Guid(79a26d00634f04f459db63ebf52ec16f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphics/Surroundings/Medieval_Castle/Decorations/Materials/bookshelf_2.mat using Guid(79a26d00634f04f459db63ebf52ec16f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7aa316a68e9b1a2a2e6e31996394790') in 0.016084 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/SkySeries Freebie/6sidedCosmicCoolCloud.mat
-  artifactKey: Guid(f531e09e2ad2fb440b4eed7605863143) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SkySeries Freebie/6sidedCosmicCoolCloud.mat using Guid(f531e09e2ad2fb440b4eed7605863143) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03024a21dd52e9c59ce4f4f313c662b1') in 0.225796 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/SU3DJPFont/Demo/Materials/Block.mat
-  artifactKey: Guid(6ba76f89ead89cb48a67de6069a5461a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SU3DJPFont/Demo/Materials/Block.mat using Guid(6ba76f89ead89cb48a67de6069a5461a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8cc9ef3aa84d069197eb58b0d8c6272') in 0.218025 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/SkySeries Freebie/CoriolisNight4k.mat
-  artifactKey: Guid(d4454f71d85928744be7771e2143dab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SkySeries Freebie/CoriolisNight4k.mat using Guid(d4454f71d85928744be7771e2143dab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff4adf09a95087228cf7863a14a2d785') in 0.081579 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/SkySeries Freebie/ExampleScenes/SceneObjects/8_10.mat
-  artifactKey: Guid(964f6a34e2240bf45940918b112ce7be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SkySeries Freebie/ExampleScenes/SceneObjects/8_10.mat using Guid(964f6a34e2240bf45940918b112ce7be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ac254d8848fcbb221e48f29a86c5610') in 0.026419 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/SkySeries Freebie/CosmicCoolCloud_Eq.mat
-  artifactKey: Guid(369b9ebe3a62b904dbc19bd332b44086) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SkySeries Freebie/CosmicCoolCloud_Eq.mat using Guid(369b9ebe3a62b904dbc19bd332b44086) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ab0691db0c88ed2f6f515bfdc1a01dc') in 0.057817 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/SkySeries Freebie/ExampleScenes/SceneObjects/6_10.mat
-  artifactKey: Guid(abcc3c67b7d0a794f8bb91be4e85abdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SkySeries Freebie/ExampleScenes/SceneObjects/6_10.mat using Guid(abcc3c67b7d0a794f8bb91be4e85abdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a7ea68295bae33e762e91895f7a02f1') in 0.018004 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/SkySeries Freebie/CasualDay.mat
-  artifactKey: Guid(85cf0b004bc4a654b9e501efcce47902) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SkySeries Freebie/CasualDay.mat using Guid(85cf0b004bc4a654b9e501efcce47902) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'addb56a0483f6c5e7f0afb012937dbce') in 0.033473 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 12.444241 seconds.
-  path: Assets/SkySeries Freebie/DayInTheClouds.mat
-  artifactKey: Guid(3e5399bd195de7649b874f58c1b9f8a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SkySeries Freebie/DayInTheClouds.mat using Guid(3e5399bd195de7649b874f58c1b9f8a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cbd5b89095767ab69078676523a09c2') in 0.059955 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.139273 seconds.
-  path: Assets/Yoge/Platformer/Dungeon/_VFX/Fire 1.mat
-  artifactKey: Guid(b49ec8f96e39e3048908d503a7e44acb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Yoge/Platformer/Dungeon/_VFX/Fire 1.mat using Guid(b49ec8f96e39e3048908d503a7e44acb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6843b33ed626cd9fe753da140946c70f') in 0.024953 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.859322 seconds.
-  path: Assets/SU3DJPFont/Fonts/MPlusTestflight63a/mplus-1p-medium.ttf
-  artifactKey: Guid(ef284d01c8f49b74595294c5f4296784) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SU3DJPFont/Fonts/MPlusTestflight63a/mplus-1p-medium.ttf using Guid(ef284d01c8f49b74595294c5f4296784) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7247fe87de3e21189548d815cfa4baa5') in 0.076481 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.391894 seconds.
-  path: Assets/SU3DJPFont/Fonts/MPlusTestflight63a/mplus-1p-bold.ttf
-  artifactKey: Guid(d22d91c285ac82849bc2563a6707d20b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SU3DJPFont/Fonts/MPlusTestflight63a/mplus-1p-bold.ttf using Guid(d22d91c285ac82849bc2563a6707d20b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3681bb512aa9e1ed90f7438eba4e3d3c') in 0.015455 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.042201 seconds.
-  path: Assets/SU3DJPFont/Fonts/MPlusTestflight63a/mplus-1mn-light.ttf
-  artifactKey: Guid(07bc55e40a51311439ec10a387f4d877) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SU3DJPFont/Fonts/MPlusTestflight63a/mplus-1mn-light.ttf using Guid(07bc55e40a51311439ec10a387f4d877) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aadd546909990bba2bd0737dde61ca67') in 0.017526 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 766.172583 seconds.
-  path: Assets/RainMaker/Prefab/RainMaterial2D.mat
-  artifactKey: Guid(c8c162af3fac7f145b8d1295eff18b1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RainMaker/Prefab/RainMaterial2D.mat using Guid(c8c162af3fac7f145b8d1295eff18b1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e1021ad8e878c7486774cdb78e10376') in 0.010528 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.156846 seconds.
-  path: Assets/RainMaker/Prefab/RainMistMaterial2D.mat
-  artifactKey: Guid(03c4b968ffb030646b5abe98dff68dcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RainMaker/Prefab/RainMistMaterial2D.mat using Guid(03c4b968ffb030646b5abe98dff68dcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b8435501a48c13cab8a700fbc68c938') in 0.011011 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.010964 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\SoulvaniaProject\EdensDooR\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\SoulvaniaProject\EdensDooR\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.58 ms, found 6 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.320 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1321ms)
-		BeginReloadAssembly (230ms)
+	ReloadAssembly (1504ms)
+		BeginReloadAssembly (137ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (7ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (38ms)
-		EndReloadAssembly (996ms)
-			LoadAssemblies (204ms)
+			CreateAndSetChildDomain (21ms)
+		EndReloadAssembly (1253ms)
+			LoadAssemblies (115ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (250ms)
+			SetupTypeCache (263ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (55ms)
-			SetupLoadedEditorAssemblies (545ms)
+			RebuildScriptCaches (72ms)
+			SetupLoadedEditorAssemblies (731ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (76ms)
-				ProcessInitializeOnLoadAttributes (428ms)
-				ProcessInitializeOnLoadMethodAttributes (32ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (129ms)
+				BeforeProcessingInitializeOnLoad (104ms)
+				ProcessInitializeOnLoadAttributes (459ms)
+				ProcessInitializeOnLoadMethodAttributes (34ms)
 				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
 Shader 'Custom/RainShader': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 3.67 ms, found 6 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
+Refreshing native plugins compatible for Editor in 1.26 ms, found 6 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4271 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 34 unused Assets / (263.5 KB). Loaded Objects now: 4837.
-Memory consumption went from 181.7 MB to 181.4 MB.
-Total: 3.980700 ms (FindLiveObjects: 0.684000 ms CreateObjectMapping: 0.356100 ms MarkObjects: 2.727500 ms  DeleteObjects: 0.212200 ms)
+Unloading 4301 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 56 unused Assets / (270.2 KB). Loaded Objects now: 4773.
+Memory consumption went from 179.7 MB to 179.4 MB.
+Total: 4.569700 ms (FindLiveObjects: 0.342400 ms CreateObjectMapping: 0.346000 ms MarkObjects: 3.719500 ms  DeleteObjects: 0.160500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -744,3 +164,157 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 74630.982264 seconds.
+  path: Assets/CasualGameSounds/DM-CGS-22.wav
+  artifactKey: Guid(d8d04c6f80a1140db85ede568dab1f51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CasualGameSounds/DM-CGS-22.wav using Guid(d8d04c6f80a1140db85ede568dab1f51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea761602de38c224dbf243791ad252b5') in 0.164462 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/CasualGameSounds/DM-CGS-24.wav
+  artifactKey: Guid(657578e4be6b64dbf9b09deada272e55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CasualGameSounds/DM-CGS-24.wav using Guid(657578e4be6b64dbf9b09deada272e55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55b005c864e4f2d4e3bec112e7be2813') in 0.013469 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/CasualGameSounds/DM-CGS-07.wav
+  artifactKey: Guid(2c5292ba5cf254919a6b9e2b18e04f49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CasualGameSounds/DM-CGS-07.wav using Guid(2c5292ba5cf254919a6b9e2b18e04f49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7702a8d1753c683b8c37a7e3909b9c37') in 0.052307 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/CasualGameSounds/DM-CGS-09.wav
+  artifactKey: Guid(ff5f85da24bc943d1abdc5760a22bc81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CasualGameSounds/DM-CGS-09.wav using Guid(ff5f85da24bc943d1abdc5760a22bc81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4369c8dba6b5447d4f5ee72379bd000') in 0.009559 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/CasualGameSounds/DM-CGS-03.wav
+  artifactKey: Guid(19f89c6e740e7447f9e12a8310d3e973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CasualGameSounds/DM-CGS-03.wav using Guid(19f89c6e740e7447f9e12a8310d3e973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '261d1e6e24b1b9b3709079b110268654') in 0.054583 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.114968 seconds.
+  path: Assets/CasualGameSounds/DM-CGS-26.wav
+  artifactKey: Guid(7bd6b897eb5ca4b7d88a205c4a51640c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CasualGameSounds/DM-CGS-26.wav using Guid(7bd6b897eb5ca4b7d88a205c4a51640c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b746816ff1987f2c15f251f6041c2bb0') in 0.012862 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/CasualGameSounds/DM-CGS-29.wav
+  artifactKey: Guid(80e397195ea2940b69ee7bdbded856a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CasualGameSounds/DM-CGS-29.wav using Guid(80e397195ea2940b69ee7bdbded856a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22df649f96b6bb712605f68d30b1063e') in 0.010780 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.018865 seconds.
+  path: Assets/CasualGameSounds/DM-CGS-32.wav
+  artifactKey: Guid(29bde6326b4c34ad8a12da475f79b50a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CasualGameSounds/DM-CGS-32.wav using Guid(29bde6326b4c34ad8a12da475f79b50a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6531deb4398082596cd96acc4a01dea6') in 0.014202 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/CasualGameSounds/DM-CGS-35.wav
+  artifactKey: Guid(89e6bc608da7b47d4914f3d9c2484e48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CasualGameSounds/DM-CGS-35.wav using Guid(89e6bc608da7b47d4914f3d9c2484e48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b31eae05f425ec10b3d6f834dacf6316') in 0.184421 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Piano Instrumental Music Loops/Piano Instrumental 4.wav
+  artifactKey: Guid(38c694ef7c0dced4a99f490930a9ef10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Piano Instrumental Music Loops/Piano Instrumental 4.wav using Guid(38c694ef7c0dced4a99f490930a9ef10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81b380030bc7e60ef15ec08803bb201d') in 0.020059 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Audio/Sound effects/sfx_quick time event key.mp3
+  artifactKey: Guid(958e557551add1942b2b7f01d8c154a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Sound effects/sfx_quick time event key.mp3 using Guid(958e557551add1942b2b7f01d8c154a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '199fe2f2a08a6cd60e0f775e8a715a8c') in 0.067366 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/CasualGameSounds/DM-CGS-48.wav
+  artifactKey: Guid(7e26c9daf4c32483b9c2790e662d3f1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CasualGameSounds/DM-CGS-48.wav using Guid(7e26c9daf4c32483b9c2790e662d3f1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbc4026a66e80141f7d9f842284b77bb') in 0.018003 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Audio/Sound effects/sfx_chronosphere.mp3
+  artifactKey: Guid(470a4ef1acbafde48821a531d927081d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Sound effects/sfx_chronosphere.mp3 using Guid(470a4ef1acbafde48821a531d927081d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '672264997417cbc3f0be634fa68edf6e') in 0.134802 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/CasualGameSounds/DM-CGS-41.wav
+  artifactKey: Guid(7e9ee6dc04a5d40d1a5dfc4beb9865e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CasualGameSounds/DM-CGS-41.wav using Guid(7e9ee6dc04a5d40d1a5dfc4beb9865e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dc79e65f480a833eee0325b25314e4b') in 0.027270 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/CasualGameSounds/DM-CGS-37.wav
+  artifactKey: Guid(a931da70ee74947d5a047de583170ade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CasualGameSounds/DM-CGS-37.wav using Guid(a931da70ee74947d5a047de583170ade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f4800285f38b58fe04f103ab91bbe40') in 0.018614 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Piano Instrumental Music Loops/Piano Instrumental 3.wav
+  artifactKey: Guid(8310c03f02828444fbb6c9371417d7a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Piano Instrumental Music Loops/Piano Instrumental 3.wav using Guid(8310c03f02828444fbb6c9371417d7a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d8e7bc4c747ca35bddd7e8a99d06272') in 0.011332 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Audio/Sound effects/sfx_girl sigh 2.mp3
+  artifactKey: Guid(996b07f45a84d6c45a62d943846792b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Sound effects/sfx_girl sigh 2.mp3 using Guid(996b07f45a84d6c45a62d943846792b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '208f1008e24c78ddadf9f4534d250bd3') in 0.006188 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Audio/Sound effects/sfx_woman sigh 3.mp3
+  artifactKey: Guid(031913b601fc9b54b956557619752108) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Sound effects/sfx_woman sigh 3.mp3 using Guid(031913b601fc9b54b956557619752108) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4eb23aea7b4e11e6742c5c7e044de2ae') in 0.071682 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/CasualGameSounds/DM-CGS-39.wav
+  artifactKey: Guid(3becec1909f194046945d85ac1077772) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CasualGameSounds/DM-CGS-39.wav using Guid(3becec1909f194046945d85ac1077772) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f36b882afe8b2835fb144c733d68aff0') in 0.006638 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/CasualGameSounds/DM-CGS-45.wav
+  artifactKey: Guid(52320e590bf774734a288886eba557ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CasualGameSounds/DM-CGS-45.wav using Guid(52320e590bf774734a288886eba557ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '302383640f2862b3fa9a827c3e209976') in 0.009193 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/CasualGameSounds/DM-CGS-42.wav
+  artifactKey: Guid(38a17a92b9d9748c6a1e67972041b833) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CasualGameSounds/DM-CGS-42.wav using Guid(38a17a92b9d9748c6a1e67972041b833) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87c0f54690aa979176bf60a8c48709c8') in 0.006585 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Audio/Sound effects/sfx_clock.mp3
+  artifactKey: Guid(d44f2f1e37ed27c498fdc266bc02b5c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Sound effects/sfx_clock.mp3 using Guid(d44f2f1e37ed27c498fdc266bc02b5c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4341dfdd29682d95ddc5bcb83dfe9d02') in 0.160382 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Piano Instrumental Music Loops/Piano Instrumental 1.wav
+  artifactKey: Guid(6b08ccefe2c8c5e4fb69ec0c3d5d92df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Piano Instrumental Music Loops/Piano Instrumental 1.wav using Guid(6b08ccefe2c8c5e4fb69ec0c3d5d92df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4104d2df58b39d0a82c168d1756ceff3') in 0.060144 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/CasualGameSounds/DM-CGS-43.wav
+  artifactKey: Guid(4b4dd7245f6104c8c8eb07ccf6b386ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CasualGameSounds/DM-CGS-43.wav using Guid(4b4dd7245f6104c8c8eb07ccf6b386ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '382591b4e31318801ad8713481a206f7') in 0.010300 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/CasualGameSounds/DM-CGS-44.wav
+  artifactKey: Guid(b43d102aac6b145468dcaa94a5cccae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CasualGameSounds/DM-CGS-44.wav using Guid(b43d102aac6b145468dcaa94a5cccae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '818f960275fdc6077a53f06671b98e70') in 0.005924 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
