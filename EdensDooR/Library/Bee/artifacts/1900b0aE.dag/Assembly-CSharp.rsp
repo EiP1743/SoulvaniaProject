@@ -432,6 +432,7 @@
 "Assets/Scripts/Controllers/Skill_Controllers/Crystal_Skill_Controller.cs"
 "Assets/Scripts/Controllers/Skill_Controllers/Sword_Skill_Controller.cs"
 "Assets/Scripts/Controllers/ThunderStrike_Controller.cs"
+"Assets/Scripts/CursolController.cs"
 "Assets/Scripts/DeadZone.cs"
 "Assets/Scripts/Effects/AfterImageFX.cs"
 "Assets/Scripts/Effects/EntityFX.cs"

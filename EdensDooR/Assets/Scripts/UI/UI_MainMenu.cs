@@ -5,35 +5,39 @@ using UnityEngine.SceneManagement;
 
 public class UI_MainMenu : MonoBehaviour
 {
-    [SerializeField] private string sceneName;
+    [SerializeField] protected string sceneName;
     [SerializeField] private GameObject continueButton;
-    [SerializeField] UI_FadeScreen fadeScreen;
+    [SerializeField] protected UI_FadeScreen fadeScreen;
 
-    private void Start()
+    protected AudioSource fadeAudioSource;
+    protected void Start()
     {
         if (SaveManager.instance.HasSavedData() == false)
             continueButton.SetActive(false);
+        fadeAudioSource = GetComponent<AudioSource>();
     }
 
-    public void ContinueGame()
+    protected void ContinueGame()
     {
+        
         StartCoroutine(LoadSceneWithFadeEffect(1.5f));
     }
 
-    public void NewGame()
+    protected void NewGame()
     {
         SaveManager.instance.DeleteSavedData();
         StartCoroutine(LoadSceneWithFadeEffect(1.5f));
     }
 
-    public void ExitGame()
+    protected void Quit()
     {
-        Debug.Log("Exit game");
-        //Application.Quit();
+        Debug.Log("Quit");
+        Application.Quit();
     }
 
-    IEnumerator LoadSceneWithFadeEffect(float _delay)
+    protected IEnumerator LoadSceneWithFadeEffect(float _delay)
     {
+        fadeAudioSource.PlayOneShot(fadeAudioSource.clip);
         fadeScreen.FadeOut();
 
         yield return new WaitForSeconds(_delay);
