@@ -15,7 +15,7 @@ D:/SoulvaniaProject/EdensDooR
 -logFile
 Logs/AssetImportWorker2.log
 -srvPort
-63551
+51331
 Successfully changed project path to: D:/SoulvaniaProject/EdensDooR
 D:/SoulvaniaProject/EdensDooR
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,11 +47,11 @@ D:/SoulvaniaProject/EdensDooR
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [26488] Host "[IP] 192.168.2.136 [Port] 0 [Flags] 2 [Guid] 2479253217 [EditorId] 2479253217 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-0BMJ3B6K) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [26584] Host "[IP] 192.168.2.136 [Port] 0 [Flags] 2 [Guid] 1646569902 [EditorId] 1646569902 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-0BMJ3B6K) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [26488] Host "[IP] 192.168.2.136 [Port] 0 [Flags] 2 [Guid] 2479253217 [EditorId] 2479253217 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-0BMJ3B6K) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [26584] Host "[IP] 192.168.2.136 [Port] 0 [Flags] 2 [Guid] 1646569902 [EditorId] 1646569902 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-0BMJ3B6K) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 100.11 ms, found 6 plugins.
+Refreshing native plugins compatible for Editor in 131.79 ms, found 6 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.23f1 (213b516bf396)
 [Subsystems] Discovering subsystems at path D:/2021.3.23f1/Editor/Data/Resources/UnitySubsystems
@@ -63,46 +63,192 @@ Direct3D:
     Vendor:   NVIDIA
     VRAM:     3950 MB
     Driver:   31.0.15.4633
+Shader 'Custom/RainShader': fallback shader 'Particles/Alpha Blended' not found
 Initialize mono
 Mono path[0] = 'D:/2021.3.23f1/Editor/Data/Managed'
 Mono path[1] = 'D:/2021.3.23f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'D:/2021.3.23f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56532
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56492
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/2021.3.23f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001467 seconds.
+Registered in 0.001708 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 102.70 ms, found 6 plugins.
+Refreshing native plugins compatible for Editor in 113.19 ms, found 6 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.731 seconds
+- Completed reload, in  0.648 seconds
 Domain Reload Profiling:
-	ReloadAssembly (732ms)
-		BeginReloadAssembly (178ms)
+	ReloadAssembly (648ms)
+		BeginReloadAssembly (108ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (455ms)
-			LoadAssemblies (178ms)
+		EndReloadAssembly (456ms)
+			LoadAssemblies (107ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (112ms)
+			SetupTypeCache (103ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (29ms)
-			SetupLoadedEditorAssemblies (269ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (284ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (103ms)
+				RefreshPlugins (113ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (116ms)
-				ProcessInitializeOnLoadMethodAttributes (43ms)
+				ProcessInitializeOnLoadAttributes (119ms)
+				ProcessInitializeOnLoadMethodAttributes (44ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.005877 seconds.
+Registered in 0.005722 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\SoulvaniaProject\EdensDooR\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\SoulvaniaProject\EdensDooR\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 104.52 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.455 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1456ms)
+		BeginReloadAssembly (140ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (25ms)
+		EndReloadAssembly (1222ms)
+			LoadAssemblies (109ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (271ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (86ms)
+			SetupLoadedEditorAssemblies (726ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (105ms)
+				BeforeProcessingInitializeOnLoad (108ms)
+				ProcessInitializeOnLoadAttributes (474ms)
+				ProcessInitializeOnLoadMethodAttributes (35ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Custom/RainShader': fallback shader 'Particles/Alpha Blended' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
+Refreshing native plugins compatible for Editor in 0.81 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4301 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 56 unused Assets / (270.2 KB). Loaded Objects now: 4770.
+Memory consumption went from 179.5 MB to 179.2 MB.
+Total: 3.719800 ms (FindLiveObjects: 0.302300 ms CreateObjectMapping: 0.278600 ms MarkObjects: 2.986500 ms  DeleteObjects: 0.151500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 72287.842814 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Stump.prefab
+  artifactKey: Guid(64cddfc21e04a9c408921968b73a68ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Stump.prefab using Guid(64cddfc21e04a9c408921968b73a68ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0b873611f421eff66f3dcb055134756') in 0.110678 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.702719 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Sunflower 02.prefab
+  artifactKey: Guid(d5f7066e247357149b9a778fcd53e819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Sunflower 02.prefab using Guid(d5f7066e247357149b9a778fcd53e819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a750cd206781d46bf0a2f68bc12a4b82') in 0.014987 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.035016 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Torch.prefab
+  artifactKey: Guid(c759bb922e42eda4eb6f7e6e4e2fbe63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Torch.prefab using Guid(c759bb922e42eda4eb6f7e6e4e2fbe63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41b44ea0f1c33aa7027d8ef3c563010b') in 0.019641 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.173168 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Tree 01.prefab
+  artifactKey: Guid(7903d081236f2304396572efb80b5f8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Tree 01.prefab using Guid(7903d081236f2304396572efb80b5f8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f11d4c05b946949e6c9193adfb1d4443') in 0.017543 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.015952 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Weapon Rack.prefab
+  artifactKey: Guid(db3033d1b9a69204ebc8a3bc98f3c254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Weapon Rack.prefab using Guid(db3033d1b9a69204ebc8a3bc98f3c254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63287c9d3972d55a014dbf485c058724') in 0.022150 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Wheat 03.prefab
+  artifactKey: Guid(924118ea6eca18f459f67d54f8640858) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Wheat 03.prefab using Guid(924118ea6eca18f459f67d54f8640858) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '384309ee0b5209e0e320896cf753f944') in 0.017803 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.216373 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - White Bottle.prefab
+  artifactKey: Guid(af37d6137b6748f4dbfe059a86aad627) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - White Bottle.prefab using Guid(af37d6137b6748f4dbfe059a86aad627) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6f9e948a0017fb4f9e64ed74e16ef31') in 0.011648 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Wood Logs.prefab
+  artifactKey: Guid(d0bde9a42898be64ab7372c560194d8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Wood Logs.prefab using Guid(d0bde9a42898be64ab7372c560194d8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1d5a5955d699b6508f4e936460622b1') in 0.009300 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005202 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Wooden Bridge X6.prefab
+  artifactKey: Guid(d9997400142b1f14281284870012ac00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Wooden Bridge X6.prefab using Guid(d9997400142b1f14281284870012ac00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61c57d12939adf37b138671d8ed62178') in 0.009696 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.010979 seconds.
+  path: Assets/RainMaker/Prefab/RainPrefab.prefab
+  artifactKey: Guid(69b40ef7ee16c834c844b3fa26e0fdda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RainMaker/Prefab/RainPrefab.prefab using Guid(69b40ef7ee16c834c844b3fa26e0fdda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef9ef619fc74ee29dc8683ac43074487') in 0.014523 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.239689 seconds.
+  path: Assets/Yoge/Platformer/Dungeon/Prefabs/Spike.prefab
+  artifactKey: Guid(d94af58734950804cb4c5bb3f0c730b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yoge/Platformer/Dungeon/Prefabs/Spike.prefab using Guid(d94af58734950804cb4c5bb3f0c730b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ab313ed0837913492b0dfd6ffb00bb0') in 0.010892 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004745 seconds.
+  path: Assets/Tile Palette/Tile Set.prefab
+  artifactKey: Guid(9a87f69eeb97f7c468ad6c48409715a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile Palette/Tile Set.prefab using Guid(9a87f69eeb97f7c468ad6c48409715a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc6b56f58042fc36e982485d7cc25e87') in 0.099414 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.423086 seconds.
+  path: Assets/PotionJunkies/7Enemies/Prefab/01_Arachne.prefab
+  artifactKey: Guid(9731db4edf053bb40932087959818547) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PotionJunkies/7Enemies/Prefab/01_Arachne.prefab using Guid(9731db4edf053bb40932087959818547) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e746b1922865eea9bce693f08c6f78a') in 0.020088 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/PotionJunkies/7Enemies/Prefab/06_NemianLion.prefab
+  artifactKey: Guid(e214218c332a0bb41ab639fe4bc8dea6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PotionJunkies/7Enemies/Prefab/06_NemianLion.prefab using Guid(e214218c332a0bb41ab639fe4bc8dea6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97f6cde2c79c28ac4775a4001dbe46f8') in 0.024468 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
