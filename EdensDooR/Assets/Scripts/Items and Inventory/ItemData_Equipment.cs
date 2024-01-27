@@ -112,23 +112,23 @@ public class ItemData_Equipment : ItemData
         sb.Length = 0;
         descriptionLength = 0;
 
-        AddItemDescription(strength, "Strength");
-        AddItemDescription(agility, "Agility");
-        AddItemDescription(intelligence, "Intelligence");
-        AddItemDescription(vitality, "Vitality");
+        AddItemDescription(strength, "‹Ø—Í");
+        AddItemDescription(agility, "•q·«");
+        AddItemDescription(intelligence, "’m—Í");
+        AddItemDescription(vitality, "‘Ì—Í");
 
-        AddItemDescription(damage, "Damage");
-        AddItemDescription(critChance, "Crit.Chance");
-        AddItemDescription(critPower, "Crit.Power");
+        AddItemDescription(damage, "Šî‘bUŒ‚—Í");
+        AddItemDescription(critChance, "‰ïS—¦");
+        AddItemDescription(critPower, "‰ïSƒ_ƒ[ƒW");
 
-        AddItemDescription(health, "Health");
-        AddItemDescription(evasion, "Evasion");
-        AddItemDescription(armor, "Armor");
-        AddItemDescription(magicResistance, "Magic Resist.");
+        AddItemDescription(health, "HP");
+        AddItemDescription(evasion, "‰ñ”ğ—¦");
+        AddItemDescription(armor, "•¨—‘Ï«");
+        AddItemDescription(magicResistance, "–‚–@‘Ï«");
 
-        AddItemDescription(fireDamage, "Fire damage");
-        AddItemDescription(iceDamage, "Ice damage");
-        AddItemDescription(lightingDamage, "Lighting dmg. ");
+        AddItemDescription(fireDamage, "‰ŠUŒ‚—Í");
+        AddItemDescription(iceDamage, "•XUŒ‚—Í");
+        AddItemDescription(lightingDamage, "ŒõUŒ‚—Í");
 
 
 
