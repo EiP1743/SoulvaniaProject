@@ -1,18 +1,29 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class UI_Options : MonoBehaviour
 {
-    // Start is called before the first frame update
+    [SerializeField] private string sceneName;
+    [SerializeField] UI_FadeScreen fadeScreen;
+
+    AudioSource fadeAudioSource;
     void Start()
     {
-        
+        fadeAudioSource = GetComponent<AudioSource>();
     }
-
-    // Update is called once per frame
-    void Update()
+    public void ExitGame()
     {
-        
+        StartCoroutine(LoadSceneWithFadeEffect(1.5f));
+    }
+    IEnumerator LoadSceneWithFadeEffect(float _delay)
+    {
+        fadeAudioSource.PlayOneShot(fadeAudioSource.clip);
+        fadeScreen.FadeOut();
+
+        yield return new WaitForSeconds(_delay);
+
+        SceneManager.LoadScene(sceneName);
     }
 }

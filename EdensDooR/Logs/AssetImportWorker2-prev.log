@@ -15,7 +15,7 @@ D:/SoulvaniaProject/EdensDooR
 -logFile
 Logs/AssetImportWorker2.log
 -srvPort
-54299
+51491
 Successfully changed project path to: D:/SoulvaniaProject/EdensDooR
 D:/SoulvaniaProject/EdensDooR
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,11 +47,11 @@ D:/SoulvaniaProject/EdensDooR
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [16040] Host "[IP] 192.168.2.136 [Port] 0 [Flags] 2 [Guid] 3310853826 [EditorId] 3310853826 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-0BMJ3B6K) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [17464] Host "[IP] 192.168.2.136 [Port] 0 [Flags] 2 [Guid] 1668239701 [EditorId] 1668239701 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-0BMJ3B6K) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [16040] Host "[IP] 192.168.2.136 [Port] 0 [Flags] 2 [Guid] 3310853826 [EditorId] 3310853826 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-0BMJ3B6K) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [17464] Host "[IP] 192.168.2.136 [Port] 0 [Flags] 2 [Guid] 1668239701 [EditorId] 1668239701 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-0BMJ3B6K) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 137.74 ms, found 6 plugins.
+Refreshing native plugins compatible for Editor in 279.55 ms, found 6 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.23f1 (213b516bf396)
 [Subsystems] Discovering subsystems at path D:/2021.3.23f1/Editor/Data/Resources/UnitySubsystems
@@ -68,391 +68,42 @@ Initialize mono
 Mono path[0] = 'D:/2021.3.23f1/Editor/Data/Managed'
 Mono path[1] = 'D:/2021.3.23f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'D:/2021.3.23f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56228
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56616
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/2021.3.23f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002021 seconds.
+Registered in 0.004641 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 115.34 ms, found 6 plugins.
+Refreshing native plugins compatible for Editor in 233.04 ms, found 6 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.748 seconds
+- Completed reload, in  1.397 seconds
 Domain Reload Profiling:
-	ReloadAssembly (748ms)
-		BeginReloadAssembly (126ms)
+	ReloadAssembly (1398ms)
+		BeginReloadAssembly (208ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (515ms)
-			LoadAssemblies (126ms)
+		EndReloadAssembly (1005ms)
+			LoadAssemblies (208ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (126ms)
+			SetupTypeCache (218ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (31ms)
-			SetupLoadedEditorAssemblies (305ms)
+			RebuildScriptCaches (60ms)
+			SetupLoadedEditorAssemblies (633ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
+				InitializePlatformSupportModulesInManaged (12ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (115ms)
-				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (132ms)
-				ProcessInitializeOnLoadMethodAttributes (49ms)
+				RefreshPlugins (233ms)
+				BeforeProcessingInitializeOnLoad (3ms)
+				ProcessInitializeOnLoadAttributes (298ms)
+				ProcessInitializeOnLoadMethodAttributes (86ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.006861 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\SoulvaniaProject\EdensDooR\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\SoulvaniaProject\EdensDooR\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 127.08 ms, found 6 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.468 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1469ms)
-		BeginReloadAssembly (141ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (20ms)
-		EndReloadAssembly (1220ms)
-			LoadAssemblies (117ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (266ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (84ms)
-			SetupLoadedEditorAssemblies (733ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (127ms)
-				BeforeProcessingInitializeOnLoad (106ms)
-				ProcessInitializeOnLoadAttributes (458ms)
-				ProcessInitializeOnLoadMethodAttributes (36ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Platform modules already initialized, skipping
-========================================================================
-Worker process is ready to serve import requests
-Shader 'Custom/RainShader': fallback shader 'Particles/Alpha Blended' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.21 seconds
-Refreshing native plugins compatible for Editor in 1.15 ms, found 6 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4301 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 56 unused Assets / (270.1 KB). Loaded Objects now: 4773.
-Memory consumption went from 179.7 MB to 179.4 MB.
-Total: 4.179200 ms (FindLiveObjects: 0.565900 ms CreateObjectMapping: 0.378200 ms MarkObjects: 3.074800 ms  DeleteObjects: 0.159400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 74630.982440 seconds.
-  path: Assets/CasualGameSounds/DM-CGS-16.wav
-  artifactKey: Guid(724131bc8a7f34041bb9f1701f0cb58d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CasualGameSounds/DM-CGS-16.wav using Guid(724131bc8a7f34041bb9f1701f0cb58d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c1495620055ca708a1a304278c03906') in 0.138312 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/CasualGameSounds/DM-CGS-11.wav
-  artifactKey: Guid(a0010a1a0c474473b81729eb770c485f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CasualGameSounds/DM-CGS-11.wav using Guid(a0010a1a0c474473b81729eb770c485f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf97e04f7349cef84d6890f7e20a17c9') in 0.027262 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/CasualGameSounds/DM-CGS-17.wav
-  artifactKey: Guid(b9eff218e132a4e76be78840eca96fb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CasualGameSounds/DM-CGS-17.wav using Guid(b9eff218e132a4e76be78840eca96fb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4da8272ac1247d8d1128b92203d0ee00') in 0.008085 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/CasualGameSounds/DM-CGS-23.wav
-  artifactKey: Guid(a0ca8964c08d54c5dbebf245bdc474ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CasualGameSounds/DM-CGS-23.wav using Guid(a0ca8964c08d54c5dbebf245bdc474ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd1ec5d45713cceb120072a026859c6b') in 0.007450 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/CasualGameSounds/DM-CGS-04.wav
-  artifactKey: Guid(c5e2a73ad4706440f93bf05df0b465fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CasualGameSounds/DM-CGS-04.wav using Guid(c5e2a73ad4706440f93bf05df0b465fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e71491daf6c6f7104983894a5385f1b1') in 0.066801 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/CasualGameSounds/DM-CGS-06.wav
-  artifactKey: Guid(a235d590ef2a04d1b85b61ef4c21337c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CasualGameSounds/DM-CGS-06.wav using Guid(a235d590ef2a04d1b85b61ef4c21337c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4755f06b18d3ca0e965b827728514c7e') in 0.092096 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.062543 seconds.
-  path: Assets/CasualGameSounds/DM-CGS-25.wav
-  artifactKey: Guid(5fdb13d3756c84fecac96f5a2d124370) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CasualGameSounds/DM-CGS-25.wav using Guid(5fdb13d3756c84fecac96f5a2d124370) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2de6e27a998927e5f9b70b1060f86b8e') in 0.013285 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/CasualGameSounds/DM-CGS-28.wav
-  artifactKey: Guid(79180f511d89441b9aa23ccae1992fe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CasualGameSounds/DM-CGS-28.wav using Guid(79180f511d89441b9aa23ccae1992fe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62fbe87b62f3e92e272b1a47ef79ece3') in 0.010262 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/CasualGameSounds/DM-CGS-30.wav
-  artifactKey: Guid(130a177e727814a2ea78a886ab72213d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CasualGameSounds/DM-CGS-30.wav using Guid(130a177e727814a2ea78a886ab72213d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d17cc0aff5eef8c733ee71babd72a07') in 0.006871 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.006849 seconds.
-  path: Assets/CasualGameSounds/DM-CGS-31.wav
-  artifactKey: Guid(cf6c0e7fbef9449c98a0cdb5ea0c4d9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CasualGameSounds/DM-CGS-31.wav using Guid(cf6c0e7fbef9449c98a0cdb5ea0c4d9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f4c367fcbd7fcaa403bed45c8d2cbdd') in 0.034802 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/CasualGameSounds/DM-CGS-47.wav
-  artifactKey: Guid(d46323e22e74e46baa241cbf48c85671) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CasualGameSounds/DM-CGS-47.wav using Guid(d46323e22e74e46baa241cbf48c85671) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e50594d999d92a9bdc70527ba89d0545') in 0.037751 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Audio/Sound effects/sfx_bankai.mp3
-  artifactKey: Guid(8dc8fde242a12544eb5c14646271a2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio/Sound effects/sfx_bankai.mp3 using Guid(8dc8fde242a12544eb5c14646271a2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2670184c25bebc67d137f77a4d041593') in 0.019858 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Audio/Sound effects/sfx_fire magic.mp3
-  artifactKey: Guid(decfc7d0b2addf842b4b38e046500f85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio/Sound effects/sfx_fire magic.mp3 using Guid(decfc7d0b2addf842b4b38e046500f85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd124c30012c3ea300a2a92057c6a42ba') in 0.030085 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Piano Instrumental Music Loops/Piano Instrumental 5.wav
-  artifactKey: Guid(6afeebf44977acd4590dcb471bfbf928) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Piano Instrumental Music Loops/Piano Instrumental 5.wav using Guid(6afeebf44977acd4590dcb471bfbf928) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d47539f2a46c05a37e39f4a2186a2c2') in 0.051838 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Audio/Sound effects/sfx_woman struggle 2.mp3
-  artifactKey: Guid(5e4fb6b768f40014095f965ef5fe5639) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio/Sound effects/sfx_woman struggle 2.mp3 using Guid(5e4fb6b768f40014095f965ef5fe5639) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7de032664aa349aeb971ffcc0dd51fd') in 0.047963 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Piano Instrumental Music Loops/Piano Instrumental 2.wav
-  artifactKey: Guid(70b11bf620ea41043a07888402a26e6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Piano Instrumental Music Loops/Piano Instrumental 2.wav using Guid(70b11bf620ea41043a07888402a26e6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6efd4cf07d643b12e8589e80f9fc6ab') in 0.005979 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Audio/Sound effects/sfx_woman sigh 2.mp3
-  artifactKey: Guid(afa80e68369280c41b1b4506ea140b9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio/Sound effects/sfx_woman sigh 2.mp3 using Guid(afa80e68369280c41b1b4506ea140b9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '566bd7956a963f79847c326837a651a1') in 0.089234 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/CasualGameSounds/DM-CGS-49.wav
-  artifactKey: Guid(7bef0064f8567430cac22499c6b93d4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CasualGameSounds/DM-CGS-49.wav using Guid(7bef0064f8567430cac22499c6b93d4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4abbf69cb6c0b60c327cbd5f68a8a195') in 0.104890 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/RainMaker/Prefab/rain_light.ogg
-  artifactKey: Guid(c980eda1ec9b9ff4b930005976b00f41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RainMaker/Prefab/rain_light.ogg using Guid(c980eda1ec9b9ff4b930005976b00f41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c871d413414fcf9704b7f2312b02325') in 0.032100 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/CasualGameSounds/DM-CGS-50.wav
-  artifactKey: Guid(79e6baad2fd414b82a6d49ce1568d2e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CasualGameSounds/DM-CGS-50.wav using Guid(79e6baad2fd414b82a6d49ce1568d2e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '624aa789f9ed5eed0ee7d9239db5e224') in 0.017787 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Audio/Sound effects/sfx_clock tick .mp3
-  artifactKey: Guid(5564ef294084e46458f8c07b17e916bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio/Sound effects/sfx_clock tick .mp3 using Guid(5564ef294084e46458f8c07b17e916bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74b5b27e50bb041c4cb2a07f08bc1f0d') in 0.088960 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Audio/Sound effects/sfx_woman struggle.mp3
-  artifactKey: Guid(fd962c6d13e6a6749ad9e3f122cbd4fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio/Sound effects/sfx_woman struggle.mp3 using Guid(fd962c6d13e6a6749ad9e3f122cbd4fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fec1f2b16f0c403059131bb233a50334') in 0.056528 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Audio/Sound effects/sfx_granfather clock.mp3
-  artifactKey: Guid(d077a50e009adb64d98e2dd22ec97b4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio/Sound effects/sfx_granfather clock.mp3 using Guid(d077a50e009adb64d98e2dd22ec97b4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a6352966db23b8d4a5f8279096b33af') in 0.047798 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Piano Instrumental Music Loops/Piano Instrumental 8.wav
-  artifactKey: Guid(c5b5a86a05a4fa748bcf0f128662fd3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Piano Instrumental Music Loops/Piano Instrumental 8.wav using Guid(c5b5a86a05a4fa748bcf0f128662fd3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '640f93d7c0d62d7b9153d89c2177e349') in 0.097563 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/CasualGameSounds/DM-CGS-33.wav
-  artifactKey: Guid(35fbad8cdde724f11ba6481f1e64af71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CasualGameSounds/DM-CGS-33.wav using Guid(35fbad8cdde724f11ba6481f1e64af71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c13259765105f4e121d68e665eb766a') in 0.070577 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/CasualGameSounds/DM-CGS-34.wav
-  artifactKey: Guid(881e3f52c86c94f26a60718d35627cd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CasualGameSounds/DM-CGS-34.wav using Guid(881e3f52c86c94f26a60718d35627cd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cabb4814c0e34006a57368921476512') in 0.006355 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/RainMaker/Prefab/wind_normal1.ogg
-  artifactKey: Guid(f9826f595784348498b57bcf6b2c8b1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RainMaker/Prefab/wind_normal1.ogg using Guid(f9826f595784348498b57bcf6b2c8b1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14c698f9d564c8a30ceeaabcf010673a') in 0.005596 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 122.910508 seconds.
-  path: Assets/Scenes/MainScene.unity
-  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/MainScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d916210a15f5c060aa2eddccb2c19b5') in 0.001649 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 11.431703 seconds.
-  path: Assets/Scenes/GameScene.unity
-  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/GameScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87342cfb51835d4f7171d65bae170869') in 0.001641 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 12.206487 seconds.
-  path: Assets/Scenes/TitleScene.unity
-  artifactKey: Guid(20a7a46ff539a7c48957740682be8398) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/TitleScene.unity using Guid(20a7a46ff539a7c48957740682be8398) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1e85b28b3a1a5a17d0f6e8c374f141b') in 0.001536 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 103.627449 seconds.
-  path: Assets/SU3DJPFont/TextMeshProFont/Dynamic/mplus-2p-bold SDF Dynamic.asset
-  artifactKey: Guid(9b8566037841b8945aa878a021e60513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SU3DJPFont/TextMeshProFont/Dynamic/mplus-2p-bold SDF Dynamic.asset using Guid(9b8566037841b8945aa878a021e60513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c092769666f036319fe89f52097e62f') in 0.180305 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/SU3DJPFont/TextMeshProFont/Selected/mplus-2p-thin SDF.asset
-  artifactKey: Guid(254846f4ed1a55047b794ef5c57e9ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SU3DJPFont/TextMeshProFont/Selected/mplus-2p-thin SDF.asset using Guid(254846f4ed1a55047b794ef5c57e9ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eaba15175911abe5793929c052fdd480') in 0.921857 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/SU3DJPFont/TextMeshProFont/Dynamic/mplus-2p-medium SDF Dynamic.asset
-  artifactKey: Guid(73efd110800510942a8bc409055d4711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SU3DJPFont/TextMeshProFont/Dynamic/mplus-2p-medium SDF Dynamic.asset using Guid(73efd110800510942a8bc409055d4711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d832053e170aec101f0fe0ce1cf43a3') in 0.026300 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/SU3DJPFont/TextMeshProFont/Selected/mplus-2p-light SDF.asset
-  artifactKey: Guid(a0e909b4601d95e4fb0464261cdac65e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SU3DJPFont/TextMeshProFont/Selected/mplus-2p-light SDF.asset using Guid(a0e909b4601d95e4fb0464261cdac65e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99b79f2da22aa81b589f6d346afd10aa') in 0.761727 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/SU3DJPFont/TextMeshProFont/Dynamic/mplus-2p-light SDF Dynamic.asset
-  artifactKey: Guid(812616e8e942d1d479e39467e245b4df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SU3DJPFont/TextMeshProFont/Dynamic/mplus-2p-light SDF Dynamic.asset using Guid(812616e8e942d1d479e39467e245b4df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ae968d26b2e6ea1b61ac66de3883343') in 0.012671 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 8.066163 seconds.
-  path: Assets/SU3DJPFont/TextMeshProFont/Selected/mplus-2p-black SDF.asset
-  artifactKey: Guid(f9215b90cd5de96469c85530662b8c2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SU3DJPFont/TextMeshProFont/Selected/mplus-2p-black SDF.asset using Guid(f9215b90cd5de96469c85530662b8c2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef43bee6141c94e679d954123946c0e2') in 0.755885 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.284518 seconds.
-  path: Assets/SU3DJPFont/TextMeshProFont/Dynamic/mplus-2m-regular SDF Dynamic.asset
-  artifactKey: Guid(ac1eddfdb36c2994eb798b47d9830b4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SU3DJPFont/TextMeshProFont/Dynamic/mplus-2m-regular SDF Dynamic.asset using Guid(ac1eddfdb36c2994eb798b47d9830b4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edf5831c8cc4fc5029a7e1b595fd03c6') in 0.027346 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.051068 seconds.
-  path: Assets/SU3DJPFont/TextMeshProFont/Selected/mplus-2m-medium SDF.asset
-  artifactKey: Guid(df6a9633926bea8458e6d31c7fe6a9e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SU3DJPFont/TextMeshProFont/Selected/mplus-2m-medium SDF.asset using Guid(df6a9633926bea8458e6d31c7fe6a9e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f935cf07558c14a0fbf87892b553c58') in 1.028447 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.333483 seconds.
-  path: Assets/SU3DJPFont/TextMeshProFont/Dynamic/mplus-2m-bold SDF Dynamic.asset
-  artifactKey: Guid(f83479b3119682b4381726927e81ce85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SU3DJPFont/TextMeshProFont/Dynamic/mplus-2m-bold SDF Dynamic.asset using Guid(f83479b3119682b4381726927e81ce85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c6b737e41a35c38595967c8aa938f9a') in 0.031358 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.144664 seconds.
-  path: Assets/SU3DJPFont/TextMeshProFont/Selected/mplus-2c-thin SDF.asset
-  artifactKey: Guid(260ee7a26c62f474c8ea5be16a214677) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SU3DJPFont/TextMeshProFont/Selected/mplus-2c-thin SDF.asset using Guid(260ee7a26c62f474c8ea5be16a214677) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9441a392bd0b0d6cf1de308f7bc6a3a0') in 1.089815 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.755183 seconds.
-  path: Assets/SU3DJPFont/TextMeshProFont/Dynamic/mplus-2c-medium SDF Dynamic.asset
-  artifactKey: Guid(ea2e161aed484864886ae060b3828dab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SU3DJPFont/TextMeshProFont/Dynamic/mplus-2c-medium SDF Dynamic.asset using Guid(ea2e161aed484864886ae060b3828dab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdacf8e8ffff8d0d16343d85b675ee82') in 0.219041 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.883586 seconds.
-  path: Assets/SU3DJPFont/TextMeshProFont/Selected/mplus-2c-light SDF.asset
-  artifactKey: Guid(cc73e756710017048be3180191be6514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SU3DJPFont/TextMeshProFont/Selected/mplus-2c-light SDF.asset using Guid(cc73e756710017048be3180191be6514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ef0ea9c220ecb5a038bb6e04293c0c5') in 0.286596 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.326540 seconds.
-  path: Assets/SU3DJPFont/TextMeshProFont/Dynamic/mplus-2c-bold SDF Dynamic.asset
-  artifactKey: Guid(f86c285d89a38b3419da63ff6d5f1319) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SU3DJPFont/TextMeshProFont/Dynamic/mplus-2c-bold SDF Dynamic.asset using Guid(f86c285d89a38b3419da63ff6d5f1319) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfb538ad859f5412bcac359ba9e000e3') in 0.159222 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.207531 seconds.
-  path: Assets/SU3DJPFont/TextMeshProFont/Selected/mplus-2c-black SDF.asset
-  artifactKey: Guid(90fa71e449dfb7445bed4a4df25a5989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SU3DJPFont/TextMeshProFont/Selected/mplus-2c-black SDF.asset using Guid(90fa71e449dfb7445bed4a4df25a5989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f081896edc286045389fbe6ec9640bb7') in 0.467521 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.394645 seconds.
-  path: Assets/SU3DJPFont/TextMeshProFont/Dynamic/mplus-1p-regular SDF Dynamic.asset
-  artifactKey: Guid(fefe5870091d25a4b9dfd6f28eebeee9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SU3DJPFont/TextMeshProFont/Dynamic/mplus-1p-regular SDF Dynamic.asset using Guid(fefe5870091d25a4b9dfd6f28eebeee9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c54631e87f73dbca0a4256d0c857dab5') in 0.153263 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/SU3DJPFont/TextMeshProFont/Dynamic/mplus-1p-medium SDF Dynamic.asset
-  artifactKey: Guid(026df6568a42045439ef34913f798f6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SU3DJPFont/TextMeshProFont/Dynamic/mplus-1p-medium SDF Dynamic.asset using Guid(026df6568a42045439ef34913f798f6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff0a04c1b13e2419b70730bffb73d29b') in 0.043297 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/SU3DJPFont/TextMeshProFont/Selected/mplus-1p-regular SDF.asset
-  artifactKey: Guid(9d36de8f1d37e3f4b959c51720825d3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SU3DJPFont/TextMeshProFont/Selected/mplus-1p-regular SDF.asset using Guid(9d36de8f1d37e3f4b959c51720825d3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6bd6653c286af46a4f9c6da07367e66') in 0.682946 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.413546 seconds.
-  path: Assets/SU3DJPFont/TextMeshProFont/Dynamic/mplus-1p-heavy SDF Dynamic.asset
-  artifactKey: Guid(c7a67346c4dd41441bfceb5719f825b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SU3DJPFont/TextMeshProFont/Dynamic/mplus-1p-heavy SDF Dynamic.asset using Guid(c7a67346c4dd41441bfceb5719f825b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a7898e73d15d3b5e7dba22e58d2db80') in 0.202170 seconds 
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+Registered in 0.012174 seconds.
