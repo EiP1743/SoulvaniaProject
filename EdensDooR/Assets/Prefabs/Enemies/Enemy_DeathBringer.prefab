@@ -5251,8 +5251,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c5d919b49c547184da9b10d7bfd2876f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  possibleItemDrop: 0
-  possibleDrop: []
+  possibleItemDrop: 10
+  possibleDrop:
+  - {fileID: 11400000, guid: 9209f5c03870ad140b30358835f156bb, type: 2}
+  - {fileID: 11400000, guid: a180bc7902d002b4e930905c4affb542, type: 2}
+  - {fileID: 11400000, guid: 14caadcff121d434e8b031ae47985e10, type: 2}
+  - {fileID: 11400000, guid: eb240d8e2c8358d448769b8c5bb1af05, type: 2}
+  - {fileID: 11400000, guid: 5a6cd81aaf50a814cbd0bfa954c58a68, type: 2}
+  - {fileID: 11400000, guid: 839fd2910ad77e744a35af1a16bb4118, type: 2}
   dropPrefab: {fileID: 8730514117533583190, guid: 7aaa3324c1c4b054ebebaafe3343bf25, type: 3}
 --- !u!114 &1290535682618644356
 MonoBehaviour:
@@ -15292,6 +15298,7 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!114 &1290535683279904734
 MonoBehaviour:
   m_ObjectHideFlags: 0

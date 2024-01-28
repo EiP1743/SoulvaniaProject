@@ -302,8 +302,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c5d919b49c547184da9b10d7bfd2876f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  possibleItemDrop: 0
-  possibleDrop: []
+  possibleItemDrop: 10
+  possibleDrop:
+  - {fileID: 11400000, guid: 69369925ed773dd4f904c6f9ad97e8a1, type: 2}
+  - {fileID: 11400000, guid: 9337930988e275044b8e74fa4ca51510, type: 2}
+  - {fileID: 11400000, guid: a180bc7902d002b4e930905c4affb542, type: 2}
+  - {fileID: 11400000, guid: 14caadcff121d434e8b031ae47985e10, type: 2}
+  - {fileID: 11400000, guid: eb240d8e2c8358d448769b8c5bb1af05, type: 2}
+  - {fileID: 11400000, guid: 201dcf32c23b82649acb65349e91bd6a, type: 2}
+  - {fileID: 11400000, guid: 839fd2910ad77e744a35af1a16bb4118, type: 2}
   dropPrefab: {fileID: 8730514117533583190, guid: 7aaa3324c1c4b054ebebaafe3343bf25, type: 3}
 --- !u!114 &7546619776816806399
 MonoBehaviour:
