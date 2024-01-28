@@ -16,7 +16,7 @@ MonoBehaviour:
   itemName: "\u72FC\u306E\u93A7"
   itemIcon: {fileID: 288293509, guid: a9ca9a41598dd2e44b125928045c518f, type: 3}
   itemId: 0dd5b227fb7b62541b0fbccda677392d
-  dropChance: 0
+  dropChance: 20
   equipmentType: 1
   itemCooldown: 5
   itemEffects:
