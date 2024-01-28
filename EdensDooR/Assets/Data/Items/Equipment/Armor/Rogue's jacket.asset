@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Rogue's jacket
   m_EditorClassIdentifier: 
   itemType: 1
-  itemName: Rogue's jacket
+  itemName: "\u30ED\u30FC\u30B0\u30B8\u30E3\u30B1\u30C3\u30C8"
   itemIcon: {fileID: 1667790894, guid: a9ca9a41598dd2e44b125928045c518f, type: 3}
   itemId: 7d1998873a09b094e99b326bbbc9cccc
   dropChance: 0
@@ -35,4 +35,14 @@ MonoBehaviour:
   fireDamage: 0
   iceDamage: 0
   lightingDamage: 0
-  craftingMaterials: []
+  craftingMaterials:
+  - data: {fileID: 11400000, guid: 69369925ed773dd4f904c6f9ad97e8a1, type: 2}
+    stackSize: 3
+  - data: {fileID: 11400000, guid: d4606b3a097405a48b469cfa439b193b, type: 2}
+    stackSize: 2
+  - data: {fileID: 11400000, guid: 5a6cd81aaf50a814cbd0bfa954c58a68, type: 2}
+    stackSize: 2
+  - data: {fileID: 11400000, guid: 201dcf32c23b82649acb65349e91bd6a, type: 2}
+    stackSize: 3
+  - data: {fileID: 11400000, guid: eba8ceb1cae4615479d5ce6a9d61367d, type: 2}
+    stackSize: 4

@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2021.3/staging' branch; Version is '2021.3.23f1 (213b516bf396) revision 2177873'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 11  (10.0.22621) 64bit Core' Language: 'ja' Physical Memory: 16251 MB
+OS: 'Windows 11  (10.0.22631) 64bit Core' Language: 'ja' Physical Memory: 16251 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
@@ -15,7 +15,7 @@ D:/SoulvaniaProject/EdensDooR
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-60159
+55617
 Successfully changed project path to: D:/SoulvaniaProject/EdensDooR
 D:/SoulvaniaProject/EdensDooR
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,11 +47,11 @@ D:/SoulvaniaProject/EdensDooR
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [15120] Host "[IP] 192.168.2.136 [Port] 0 [Flags] 2 [Guid] 500016607 [EditorId] 500016607 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-0BMJ3B6K) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [4072] Host "[IP] 192.168.2.136 [Port] 0 [Flags] 2 [Guid] 2445200080 [EditorId] 2445200080 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-0BMJ3B6K) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [15120] Host "[IP] 192.168.2.136 [Port] 0 [Flags] 2 [Guid] 500016607 [EditorId] 500016607 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-0BMJ3B6K) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [4072] Host "[IP] 192.168.2.136 [Port] 0 [Flags] 2 [Guid] 2445200080 [EditorId] 2445200080 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-0BMJ3B6K) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 108.99 ms, found 6 plugins.
+Refreshing native plugins compatible for Editor in 111.53 ms, found 6 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.23f1 (213b516bf396)
 [Subsystems] Discovering subsystems at path D:/2021.3.23f1/Editor/Data/Resources/UnitySubsystems
@@ -68,90 +68,90 @@ Initialize mono
 Mono path[0] = 'D:/2021.3.23f1/Editor/Data/Managed'
 Mono path[1] = 'D:/2021.3.23f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'D:/2021.3.23f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56904
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56304
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/2021.3.23f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001446 seconds.
+Registered in 0.001693 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 111.67 ms, found 6 plugins.
+Refreshing native plugins compatible for Editor in 118.43 ms, found 6 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.667 seconds
+- Completed reload, in  0.658 seconds
 Domain Reload Profiling:
-	ReloadAssembly (667ms)
-		BeginReloadAssembly (87ms)
+	ReloadAssembly (658ms)
+		BeginReloadAssembly (94ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (472ms)
-			LoadAssemblies (87ms)
+		EndReloadAssembly (478ms)
+			LoadAssemblies (94ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (115ms)
+			SetupTypeCache (113ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (28ms)
-			SetupLoadedEditorAssemblies (283ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (288ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
+				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (112ms)
+				RefreshPlugins (118ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (118ms)
-				ProcessInitializeOnLoadMethodAttributes (45ms)
+				ProcessInitializeOnLoadAttributes (119ms)
+				ProcessInitializeOnLoadMethodAttributes (43ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.005738 seconds.
+Registered in 0.007463 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image D:\SoulvaniaProject\EdensDooR\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image D:\SoulvaniaProject\EdensDooR\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 109.51 ms, found 6 plugins.
+Refreshing native plugins compatible for Editor in 122.68 ms, found 6 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.241 seconds
+- Completed reload, in  1.406 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1242ms)
-		BeginReloadAssembly (119ms)
+	ReloadAssembly (1407ms)
+		BeginReloadAssembly (148ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (8ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (18ms)
-		EndReloadAssembly (1027ms)
-			LoadAssemblies (100ms)
+		EndReloadAssembly (1158ms)
+			LoadAssemblies (117ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (227ms)
+			SetupTypeCache (248ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (60ms)
-			SetupLoadedEditorAssemblies (628ms)
+			RebuildScriptCaches (68ms)
+			SetupLoadedEditorAssemblies (714ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
+				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (110ms)
-				BeforeProcessingInitializeOnLoad (82ms)
-				ProcessInitializeOnLoadAttributes (399ms)
+				RefreshPlugins (123ms)
+				BeforeProcessingInitializeOnLoad (102ms)
+				ProcessInitializeOnLoadAttributes (449ms)
 				ProcessInitializeOnLoadMethodAttributes (33ms)
 				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Custom/RainShader': fallback shader 'Particles/Alpha Blended' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.89 ms, found 6 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.95 ms, found 6 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4302 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 55 unused Assets / (244.2 KB). Loaded Objects now: 4781.
 Memory consumption went from 186.9 MB to 186.7 MB.
-Total: 3.658800 ms (FindLiveObjects: 0.434600 ms CreateObjectMapping: 0.336000 ms MarkObjects: 2.747000 ms  DeleteObjects: 0.140000 ms)
+Total: 3.400100 ms (FindLiveObjects: 0.296600 ms CreateObjectMapping: 0.277200 ms MarkObjects: 2.712400 ms  DeleteObjects: 0.113300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -167,49 +167,49 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.015161 seconds.
+Registered in 0.006447 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image D:\SoulvaniaProject\EdensDooR\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image D:\SoulvaniaProject\EdensDooR\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.97 ms, found 6 plugins.
+Refreshing native plugins compatible for Editor in 0.94 ms, found 6 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.194 seconds
+- Completed reload, in  1.242 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1194ms)
-		BeginReloadAssembly (174ms)
+	ReloadAssembly (1243ms)
+		BeginReloadAssembly (161ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (33ms)
-		EndReloadAssembly (931ms)
-			LoadAssemblies (152ms)
+			CreateAndSetChildDomain (37ms)
+		EndReloadAssembly (974ms)
+			LoadAssemblies (122ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (250ms)
+			SetupTypeCache (276ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (48ms)
-			SetupLoadedEditorAssemblies (486ms)
+			RebuildScriptCaches (55ms)
+			SetupLoadedEditorAssemblies (507ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
-				SetLoadedEditorAssemblies (1ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (65ms)
-				ProcessInitializeOnLoadAttributes (384ms)
-				ProcessInitializeOnLoadMethodAttributes (31ms)
+				BeforeProcessingInitializeOnLoad (64ms)
+				ProcessInitializeOnLoadAttributes (404ms)
+				ProcessInitializeOnLoadMethodAttributes (32ms)
 				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
 Platform modules already initialized, skipping
 Shader 'Custom/RainShader': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 3.81 ms, found 6 plugins.
+Refreshing native plugins compatible for Editor in 3.60 ms, found 6 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4272 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 31 unused Assets / (236.8 KB). Loaded Objects now: 4796.
 Memory consumption went from 183.7 MB to 183.5 MB.
-Total: 3.694100 ms (FindLiveObjects: 0.312100 ms CreateObjectMapping: 0.281600 ms MarkObjects: 2.968200 ms  DeleteObjects: 0.131200 ms)
+Total: 3.450700 ms (FindLiveObjects: 0.320800 ms CreateObjectMapping: 0.236200 ms MarkObjects: 2.694900 ms  DeleteObjects: 0.197200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -224,168 +224,116 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 58861.403617 seconds.
-  path: Assets/SU3DJPFont/TextMeshProFont/Selected/mplus-1m-light SDF.asset
-  artifactKey: Guid(1447738d5ea80244f8423ebedc6e8612) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SU3DJPFont/TextMeshProFont/Selected/mplus-1m-light SDF.asset using Guid(1447738d5ea80244f8423ebedc6e8612) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18076b44f66b09b9e667f3b7d9c1610e') in 0.431983 seconds 
+  Time since last request: 7121.924034 seconds.
+  path: Assets/SU3DJPFont/TextMeshProFont/Dynamic/mplus-2p-heavy SDF Dynamic.asset
+  artifactKey: Guid(71de30c1f9d8dc846bd433d0857acd1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SU3DJPFont/TextMeshProFont/Dynamic/mplus-2p-heavy SDF Dynamic.asset using Guid(71de30c1f9d8dc846bd433d0857acd1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8fcfa23ba0ab00eb22d8b7371913a36') in 0.667201 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/SU3DJPFont/TextMeshProFont/Dynamic/mplus-2p-thin SDF Dynamic.asset
+  artifactKey: Guid(0e11ec24410208247973f09687fd7697) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SU3DJPFont/TextMeshProFont/Dynamic/mplus-2p-thin SDF Dynamic.asset using Guid(0e11ec24410208247973f09687fd7697) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2aa77d48eba9c8f4966654520d0b566') in 0.184665 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/SU3DJPFont/TextMeshProFont/Dynamic/mplus-2p-medium SDF Dynamic.asset
+  artifactKey: Guid(73efd110800510942a8bc409055d4711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SU3DJPFont/TextMeshProFont/Dynamic/mplus-2p-medium SDF Dynamic.asset using Guid(73efd110800510942a8bc409055d4711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9be469c1f35f38ab3f377f3bab3e5f70') in 0.273221 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/SU3DJPFont/TextMeshProFont/Dynamic/mplus-2p-regular SDF Dynamic.asset
+  artifactKey: Guid(c105d02ccaa4a134090d1733b6cb419c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SU3DJPFont/TextMeshProFont/Dynamic/mplus-2p-regular SDF Dynamic.asset using Guid(c105d02ccaa4a134090d1733b6cb419c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec42558d67b96b7f1f1a2b1a2efcd84e') in 0.128510 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/SU3DJPFont/TextMeshProFont/Dynamic/mplus-2p-black SDF Dynamic.asset
+  artifactKey: Guid(aaa7f84bf14d93a45806c37a16953942) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SU3DJPFont/TextMeshProFont/Dynamic/mplus-2p-black SDF Dynamic.asset using Guid(aaa7f84bf14d93a45806c37a16953942) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8783582ca5e220c4e3b65ba26eb7fa1') in 0.251081 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/SU3DJPFont/TextMeshProFont/Dynamic/mplus-1c-regular SDF Dynamic.asset
+  artifactKey: Guid(759ea2e917ddbd748bbae914312e50db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SU3DJPFont/TextMeshProFont/Dynamic/mplus-1c-regular SDF Dynamic.asset using Guid(759ea2e917ddbd748bbae914312e50db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa3521b56625db5a8ebc4c4d472af53c') in 0.045194 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000028 seconds.
-  path: Assets/SU3DJPFont/TextMeshProFont/Selected/mplus-1c-heavy SDF.asset
-  artifactKey: Guid(485926a3a0f8f154a8d88a9dc497e850) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SU3DJPFont/TextMeshProFont/Selected/mplus-1c-heavy SDF.asset using Guid(485926a3a0f8f154a8d88a9dc497e850) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19623238e280b7210b7ced605f0f9955') in 0.116650 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000068 seconds.
-  path: Assets/SU3DJPFont/TextMeshProFont/Dynamic/mplus-1c-thin SDF Dynamic.asset
-  artifactKey: Guid(0a60499eecd1b4e4889b36c308d2c9af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SU3DJPFont/TextMeshProFont/Dynamic/mplus-1c-thin SDF Dynamic.asset using Guid(0a60499eecd1b4e4889b36c308d2c9af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '107b06a4cc6c98434308064731e1aaa6') in 0.122908 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/SU3DJPFont/TextMeshProFont/Dynamic/mplus-1c-regular SDF Dynamic.asset
-  artifactKey: Guid(759ea2e917ddbd748bbae914312e50db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SU3DJPFont/TextMeshProFont/Dynamic/mplus-1c-regular SDF Dynamic.asset using Guid(759ea2e917ddbd748bbae914312e50db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e6c0768927d2a3fe51069dff389024c') in 0.029097 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
   path: Assets/SU3DJPFont/TextMeshProFont/Dynamic/mplus-1c-light SDF Dynamic.asset
   artifactKey: Guid(1b49521a593780140ab98a5973e9712d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SU3DJPFont/TextMeshProFont/Dynamic/mplus-1c-light SDF Dynamic.asset using Guid(1b49521a593780140ab98a5973e9712d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffbd6e743123e230045c42502e20c299') in 0.030094 seconds 
+Start importing Assets/SU3DJPFont/TextMeshProFont/Dynamic/mplus-1c-light SDF Dynamic.asset using Guid(1b49521a593780140ab98a5973e9712d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '156cb3a57461e3a2f0f9e455acd15947') in 0.026515 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/SU3DJPFont/TextMeshProFont/Dynamic/mplus-1c-bold SDF Dynamic.asset
-  artifactKey: Guid(c8ccd8b044de8bd42b1aba46c0ddee8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SU3DJPFont/TextMeshProFont/Dynamic/mplus-1c-bold SDF Dynamic.asset using Guid(c8ccd8b044de8bd42b1aba46c0ddee8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '880b6bad90ffc8f21d7a721e298dbfaa') in 0.126190 seconds 
+  Time since last request: 0.000026 seconds.
+  path: Assets/SU3DJPFont/TextMeshProFont/Dynamic/mplus-1c-medium SDF Dynamic.asset
+  artifactKey: Guid(3efee4f854459214f87fc6f32795320a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SU3DJPFont/TextMeshProFont/Dynamic/mplus-1c-medium SDF Dynamic.asset using Guid(3efee4f854459214f87fc6f32795320a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbc8074acaffe4082d175e32f740aa00') in 0.028136 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
-  artifactKey: Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset using Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64dce2572c704f6f335f43d60b17610a') in 0.018051 seconds 
+  Time since last request: 0.000036 seconds.
+  path: Assets/SU3DJPFont/TextMeshProFont/Selected/mplus-2p-black SDF.asset
+  artifactKey: Guid(f9215b90cd5de96469c85530662b8c2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SU3DJPFont/TextMeshProFont/Selected/mplus-2p-black SDF.asset using Guid(f9215b90cd5de96469c85530662b8c2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f179bee0309ff44ee652c219ac0c1b27') in 0.300476 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/SU3DJPFont/TextMeshProFont/Dynamic/mplus-1c-heavy SDF Dynamic.asset
-  artifactKey: Guid(ed9accc231f96b141b88b6108567d563) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SU3DJPFont/TextMeshProFont/Dynamic/mplus-1c-heavy SDF Dynamic.asset using Guid(ed9accc231f96b141b88b6108567d563) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '427752aae244cb654a12398a6e71db3e') in 0.026093 seconds 
+  Time since last request: 661.974821 seconds.
+  path: Assets/SU3DJPFont/TextMeshProFont/Dynamic/mplus-2c-bold SDF Dynamic.asset
+  artifactKey: Guid(f86c285d89a38b3419da63ff6d5f1319) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SU3DJPFont/TextMeshProFont/Dynamic/mplus-2c-bold SDF Dynamic.asset using Guid(f86c285d89a38b3419da63ff6d5f1319) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '150105363f2848365e1a79eae5a319b2') in 0.179905 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/SU3DJPFont/TextMeshProFont/Dynamic/mplus-1c-black SDF Dynamic.asset
-  artifactKey: Guid(bb779d5c1f115e44c82aa6f81b029f3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SU3DJPFont/TextMeshProFont/Dynamic/mplus-1c-black SDF Dynamic.asset using Guid(bb779d5c1f115e44c82aa6f81b029f3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5f7937f7fb75101cc4816dab4c36030') in 0.028538 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/SU3DJPFont/TextMeshProFont/Selected/mplus-1c-bold SDF.asset
-  artifactKey: Guid(cdd7b830eb46ebb42abfec333821465a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SU3DJPFont/TextMeshProFont/Selected/mplus-1c-bold SDF.asset using Guid(cdd7b830eb46ebb42abfec333821465a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9dd807668aa41e7487fb38f3a6b20d2') in 0.091689 seconds 
+  Time since last request: 0.000029 seconds.
+  path: Assets/SU3DJPFont/TextMeshProFont/Dynamic/mplus-2c-medium SDF Dynamic.asset
+  artifactKey: Guid(ea2e161aed484864886ae060b3828dab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SU3DJPFont/TextMeshProFont/Dynamic/mplus-2c-medium SDF Dynamic.asset using Guid(ea2e161aed484864886ae060b3828dab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fef5655d8c95c78fb26388c0b9aec18') in 0.144789 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.030519 seconds.
+Registered in 0.030777 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image D:\SoulvaniaProject\EdensDooR\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image D:\SoulvaniaProject\EdensDooR\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.41 ms, found 6 plugins.
+Refreshing native plugins compatible for Editor in 1.06 ms, found 6 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.415 seconds
+- Completed reload, in  2.455 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2416ms)
-		BeginReloadAssembly (331ms)
+	ReloadAssembly (2457ms)
+		BeginReloadAssembly (385ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (11ms)
+			DisableScriptedObjects (16ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (80ms)
-		EndReloadAssembly (1903ms)
-			LoadAssemblies (303ms)
+			CreateAndSetChildDomain (97ms)
+		EndReloadAssembly (1893ms)
+			LoadAssemblies (330ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (478ms)
-			ReleaseScriptCaches (3ms)
-			RebuildScriptCaches (102ms)
-			SetupLoadedEditorAssemblies (1020ms)
+			SetupTypeCache (540ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (119ms)
+			SetupLoadedEditorAssemblies (939ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
+				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (135ms)
-				ProcessInitializeOnLoadAttributes (805ms)
-				ProcessInitializeOnLoadMethodAttributes (67ms)
-				AfterProcessingInitializeOnLoad (4ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (18ms)
-Platform modules already initialized, skipping
-Shader 'Custom/RainShader': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 7.79 ms, found 6 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4272 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 31 unused Assets / (236.6 KB). Loaded Objects now: 4854.
-Memory consumption went from 188.4 MB to 188.1 MB.
-Total: 7.285800 ms (FindLiveObjects: 1.346700 ms CreateObjectMapping: 0.448700 ms MarkObjects: 5.274400 ms  DeleteObjects: 0.214500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.027821 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\SoulvaniaProject\EdensDooR\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\SoulvaniaProject\EdensDooR\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 2.39 ms, found 6 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.384 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2385ms)
-		BeginReloadAssembly (359ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (15ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (63ms)
-		EndReloadAssembly (1822ms)
-			LoadAssemblies (354ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (485ms)
-			ReleaseScriptCaches (4ms)
-			RebuildScriptCaches (89ms)
-			SetupLoadedEditorAssemblies (948ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (3ms)
-				BeforeProcessingInitializeOnLoad (117ms)
-				ProcessInitializeOnLoadAttributes (754ms)
-				ProcessInitializeOnLoadMethodAttributes (61ms)
-				AfterProcessingInitializeOnLoad (4ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (126ms)
+				ProcessInitializeOnLoadAttributes (743ms)
+				ProcessInitializeOnLoadMethodAttributes (58ms)
+				AfterProcessingInitializeOnLoad (3ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (12ms)
 Platform modules already initialized, skipping
 Shader 'Custom/RainShader': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 6.94 ms, found 6 plugins.
+Refreshing native plugins compatible for Editor in 9.70 ms, found 6 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4272 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 31 unused Assets / (236.9 KB). Loaded Objects now: 4869.
-Memory consumption went from 188.4 MB to 188.2 MB.
-Total: 7.664100 ms (FindLiveObjects: 0.364300 ms CreateObjectMapping: 0.263100 ms MarkObjects: 6.837400 ms  DeleteObjects: 0.198300 ms)
+Unloading 31 unused Assets / (236.5 KB). Loaded Objects now: 4854.
+Memory consumption went from 188.4 MB to 188.1 MB.
+Total: 7.517600 ms (FindLiveObjects: 0.561900 ms CreateObjectMapping: 0.573600 ms MarkObjects: 6.076000 ms  DeleteObjects: 0.304700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -401,58 +349,4 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.027757 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\SoulvaniaProject\EdensDooR\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\SoulvaniaProject\EdensDooR\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.81 ms, found 6 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.347 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2349ms)
-		BeginReloadAssembly (334ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (14ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (73ms)
-		EndReloadAssembly (1825ms)
-			LoadAssemblies (313ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (463ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (113ms)
-			SetupLoadedEditorAssemblies (955ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (138ms)
-				ProcessInitializeOnLoadAttributes (741ms)
-				ProcessInitializeOnLoadMethodAttributes (62ms)
-				AfterProcessingInitializeOnLoad (4ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (17ms)
-Platform modules already initialized, skipping
-Shader 'Custom/RainShader': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 5.51 ms, found 6 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4272 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 31 unused Assets / (236.8 KB). Loaded Objects now: 4884.
-Memory consumption went from 188.4 MB to 188.2 MB.
-Total: 4.986900 ms (FindLiveObjects: 0.327100 ms CreateObjectMapping: 0.234200 ms MarkObjects: 4.281200 ms  DeleteObjects: 0.143400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Registered in 0.027595 seconds.

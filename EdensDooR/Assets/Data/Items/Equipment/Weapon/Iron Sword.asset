@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Iron Sword
   m_EditorClassIdentifier: 
   itemType: 1
-  itemName: Iron Sword
+  itemName: "\u9244\u306E\u5263"
   itemIcon: {fileID: -671158514, guid: a9ca9a41598dd2e44b125928045c518f, type: 3}
   itemId: 799e1c3e34db60c4388bf2537ac816ba
   dropChance: 0
@@ -34,4 +34,10 @@ MonoBehaviour:
   fireDamage: 0
   iceDamage: 0
   lightingDamage: 0
-  craftingMaterials: []
+  craftingMaterials:
+  - data: {fileID: 11400000, guid: 6835c34bd80fc9c468d2f549f4b6220a, type: 2}
+    stackSize: 6
+  - data: {fileID: 11400000, guid: 9337930988e275044b8e74fa4ca51510, type: 2}
+    stackSize: 3
+  - data: {fileID: 11400000, guid: 14caadcff121d434e8b031ae47985e10, type: 2}
+    stackSize: 1

@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Blue wolf armor
   m_EditorClassIdentifier: 
   itemType: 1
-  itemName: Blue wolf armor
+  itemName: "\u72FC\u306E\u93A7"
   itemIcon: {fileID: 288293509, guid: a9ca9a41598dd2e44b125928045c518f, type: 3}
   itemId: 0dd5b227fb7b62541b0fbccda677392d
   dropChance: 0
@@ -35,4 +35,12 @@ MonoBehaviour:
   fireDamage: 0
   iceDamage: 0
   lightingDamage: 0
-  craftingMaterials: []
+  craftingMaterials:
+  - data: {fileID: 11400000, guid: 69369925ed773dd4f904c6f9ad97e8a1, type: 2}
+    stackSize: 5
+  - data: {fileID: 11400000, guid: 9337930988e275044b8e74fa4ca51510, type: 2}
+    stackSize: 2
+  - data: {fileID: 11400000, guid: 201dcf32c23b82649acb65349e91bd6a, type: 2}
+    stackSize: 2
+  - data: {fileID: 11400000, guid: eba8ceb1cae4615479d5ce6a9d61367d, type: 2}
+    stackSize: 3

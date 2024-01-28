@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b3426656fa1b2114a97261c6dc4c66c5, type: 3}
   m_Name: Ice damage on hit buff
   m_EditorClassIdentifier: 
-  effectDescription: Increases ice damage on hit.
+  effectDescription: "\u30D2\u30C3\u30C8\u6642\u306E\u6C37\u30C0\u30E1\u30FC\u30B8\u304C\u5897\u52A0\u3059\u308B\u3002"
   buffType: 12
   buffAmount: 3
   buffDuration: 2

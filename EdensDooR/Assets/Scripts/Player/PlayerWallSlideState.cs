@@ -26,7 +26,7 @@ public class PlayerWallSlideState : PlayerState
             stateMachine.ChangeState(player.airState);
 
 
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.Joystick1Button1))
         {
             stateMachine.ChangeState(player.wallJump);
             return;

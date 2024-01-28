@@ -90,11 +90,11 @@ public class Sword_Skill : Skill
 
     protected override void Update()
     {
-        if (Input.GetKeyUp(KeyCode.Mouse1))
+        if (Input.GetKeyUp(KeyCode.Mouse1) || Input.GetKeyUp(KeyCode.Joystick1Button11))
             finalDir = new Vector2(AimDirection().normalized.x * launchForce.x, AimDirection().normalized.y * launchForce.y);
 
 
-        if (Input.GetKey(KeyCode.Mouse1))
+        if (Input.GetKey(KeyCode.Mouse1) || Input.GetKey(KeyCode.Joystick1Button11))
         {
             for (int i = 0; i < dots.Length; i++)
             {
