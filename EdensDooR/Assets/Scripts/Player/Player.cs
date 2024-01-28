@@ -101,10 +101,10 @@ public class Player : Entity
         CheckForDashInput();
 
 
-        if (Input.GetKeyDown(KeyCode.F) && skill.crystal.crystalUnlocked)
+        if (Input.GetKeyDown(KeyCode.F) || Input.GetKeyDown(KeyCode.Joystick1Button0) && skill.crystal.crystalUnlocked)
             skill.crystal.CanUseSkill();
 
-        if (Input.GetKeyDown(KeyCode.Alpha1))
+        if (Input.GetKeyDown(KeyCode.Alpha1) || Input.GetKeyDown(KeyCode.Joystick1Button13))
             Inventory.instance.UseFlask();
     }
 
@@ -158,7 +158,7 @@ public class Player : Entity
             return;
 
 
-        if (Input.GetKeyDown(KeyCode.LeftShift) && SkillManager.instance.dash.CanUseSkill())
+        if (Input.GetKeyDown(KeyCode.LeftShift) || Input.GetKeyDown(KeyCode.Joystick1Button4) && SkillManager.instance.dash.CanUseSkill())
         {
 
             dashDir = Input.GetAxisRaw("Horizontal");

@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Diamond
   m_EditorClassIdentifier: 
   itemType: 0
-  itemName: Diamond
+  itemName: "\u30C0\u30A4\u30E4\u30E2\u30F3\u30C9"
   itemIcon: {fileID: 1534190214, guid: a9ca9a41598dd2e44b125928045c518f, type: 3}
   itemId: 14caadcff121d434e8b031ae47985e10
-  dropChance: 100
+  dropChance: 10

@@ -13,13 +13,13 @@ MonoBehaviour:
   m_Name: Plate armor
   m_EditorClassIdentifier: 
   itemType: 1
-  itemName: Plate armor
+  itemName: "\u30D7\u30EC\u30FC\u30C8\u30A2\u30FC\u30DE\u30FC"
   itemIcon: {fileID: -1581127718, guid: a9ca9a41598dd2e44b125928045c518f, type: 3}
+  itemId: d8f58e18c1da00143accd968a6c18188
   dropChance: 23.1
   equipmentType: 1
   itemCooldown: 0
   itemEffects: []
-  itemEffectDescription: 
   strength: 0
   agility: 0
   intelligence: 0
@@ -34,4 +34,10 @@ MonoBehaviour:
   fireDamage: 0
   iceDamage: 0
   lightingDamage: 0
-  craftingMaterials: []
+  craftingMaterials:
+  - data: {fileID: 11400000, guid: 6835c34bd80fc9c468d2f549f4b6220a, type: 2}
+    stackSize: 3
+  - data: {fileID: 11400000, guid: 201dcf32c23b82649acb65349e91bd6a, type: 2}
+    stackSize: 2
+  - data: {fileID: 11400000, guid: eba8ceb1cae4615479d5ce6a9d61367d, type: 2}
+    stackSize: 2

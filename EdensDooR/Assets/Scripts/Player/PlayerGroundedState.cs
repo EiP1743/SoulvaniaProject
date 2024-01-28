@@ -22,7 +22,7 @@ public class PlayerGroundedState : PlayerState
     {
         base.Update();
 
-        if (Input.GetKeyDown(KeyCode.R) && player.skill.blackhole.blackholeUnlocked)
+        if (Input.GetKeyDown(KeyCode.R) || Input.GetKeyDown(KeyCode.Joystick1Button3) && player.skill.blackhole.blackholeUnlocked)
         {
             if (player.skill.blackhole.cooldownTimer > 0)
             {
@@ -34,19 +34,19 @@ public class PlayerGroundedState : PlayerState
             stateMachine.ChangeState(player.blackHole);
         }
 
-        if (Input.GetKeyDown(KeyCode.Mouse1) && HasNoSword() && player.skill.sword.swordUnlocked)
+        if (Input.GetKeyDown(KeyCode.Mouse1) || Input.GetKeyDown(KeyCode.Joystick1Button11) && HasNoSword() && player.skill.sword.swordUnlocked)
             stateMachine.ChangeState(player.aimSowrd);
 
-        if (Input.GetKeyDown(KeyCode.Q) && player.skill.parry.parryUnlocked)
+        if (Input.GetKeyDown(KeyCode.Q) || Input.GetKeyDown(KeyCode.Joystick1Button5) && player.skill.parry.parryUnlocked)
             stateMachine.ChangeState(player.counterAttack);
 
-        if (Input.GetKeyDown(KeyCode.Mouse0))
+        if (Input.GetKeyDown(KeyCode.Mouse0) || Input.GetKeyDown(KeyCode.Joystick1Button7))
             stateMachine.ChangeState(player.primaryAttack);
 
         if (!player.IsGroundDetected())
             stateMachine.ChangeState(player.airState);
 
-        if (Input.GetKeyDown(KeyCode.Space) && player.IsGroundDetected())
+        if (Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.Joystick1Button1) && player.IsGroundDetected())
             stateMachine.ChangeState(player.jumpState);
     }
 

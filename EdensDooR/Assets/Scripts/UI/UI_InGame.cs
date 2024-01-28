@@ -36,23 +36,23 @@ public class UI_InGame : MonoBehaviour
     {
         UpdateSoulsUI();
 
-        if (Input.GetKeyDown(KeyCode.LeftShift) && skills.dash.dashUnlocked)
+        if (Input.GetKeyDown(KeyCode.LeftShift) || Input.GetKeyDown(KeyCode.Joystick1Button4) && skills.dash.dashUnlocked)
             SetCooldownOf(dashImage);
 
-        if (Input.GetKeyDown(KeyCode.Q) && skills.parry.parryUnlocked)
+        if (Input.GetKeyDown(KeyCode.Q) || Input.GetKeyDown(KeyCode.Joystick1Button5) && skills.parry.parryUnlocked)
             SetCooldownOf(parryImage);
 
-        if (Input.GetKeyDown(KeyCode.F) && skills.crystal.crystalUnlocked)
+        if (Input.GetKeyDown(KeyCode.F) || Input.GetKeyDown(KeyCode.Joystick1Button0) && skills.crystal.crystalUnlocked)
             SetCooldownOf(crystalImage);
 
-        if (Input.GetKeyDown(KeyCode.Mouse1) && skills.sword.swordUnlocked)
+        if (Input.GetKeyDown(KeyCode.Mouse1) || Input.GetKeyDown(KeyCode.Joystick1Button11) && skills.sword.swordUnlocked)
             SetCooldownOf(swordImage);
 
-        if (Input.GetKeyDown(KeyCode.R) && skills.blackhole.blackholeUnlocked)
+        if (Input.GetKeyDown(KeyCode.R) || Input.GetKeyDown(KeyCode.Joystick1Button3) && skills.blackhole.blackholeUnlocked)
             SetCooldownOf(blackholeImage);
 
 
-        if (Input.GetKeyDown(KeyCode.Alpha1) && Inventory.instance.GetEquipment(EquipmentType.Flask) != null)
+        if (Input.GetKeyDown(KeyCode.Alpha1) || Input.GetKeyDown(KeyCode.Joystick1Button13) && Inventory.instance.GetEquipment(EquipmentType.Flask) != null)
             SetCooldownOf(flaskImage);
 
         CheckCooldownOf(dashImage, skills.dash.cooldown);

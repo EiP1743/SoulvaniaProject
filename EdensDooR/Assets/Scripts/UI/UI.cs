@@ -46,7 +46,7 @@ public class UI : MonoBehaviour, ISaveManager
     void Update()
     {
 
-        if (Input.GetKeyDown(KeyCode.C))
+        if (Input.GetKeyDown(KeyCode.C) || Input.GetKeyDown(KeyCode.Joystick1Button9))
             SwitchWithKeyTo(charcaterUI);
 
         if (Input.GetKeyDown(KeyCode.B))
