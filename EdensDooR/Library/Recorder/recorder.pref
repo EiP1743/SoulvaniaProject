@@ -37,7 +37,7 @@ MonoBehaviour:
   m_Name: Movie
   m_EditorClassIdentifier: 
   enabled: 1
-  take: 76
+  take: 86
   captureEveryNthFrame: 1
   fileNameGenerator:
     m_Path:
@@ -45,7 +45,7 @@ MonoBehaviour:
       m_Leaf: Recordings
       m_ForceAssetFolder: 0
       m_AbsolutePath: D:/Rpg Course - SOURCE/999 - game play futage
-    m_FileName: pg_<Date>><Time>
+    m_FileName: pg_<Date>><Time><Extension>
   outputFormat: 0
   videoBitRateMode: 2
   captureAlpha: 0

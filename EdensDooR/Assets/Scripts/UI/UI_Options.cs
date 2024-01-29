@@ -24,6 +24,7 @@ public class UI_Options : MonoBehaviour
 
         yield return new WaitForSeconds(_delay);
 
-        SceneManager.LoadScene(sceneName);
+        //SceneManager.LoadScene(sceneName);
+        Application.Quit();
     }
 }
