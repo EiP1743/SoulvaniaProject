@@ -37,9 +37,9 @@ public class GameManager : MonoBehaviour, ISaveManager
     }
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.M) || Input.GetKeyDown(KeyCode.Joystick1Button8))
+        /*if (Input.GetKeyDown(KeyCode.M) || Input.GetKeyDown(KeyCode.Joystick1Button8))
             RestartScene();
-
+        */
         if (Input.GetKeyDown(KeyCode.G) || Input.GetKeyDown(KeyCode.Joystick1Button12))
         {
             if (!pasuedGame)
