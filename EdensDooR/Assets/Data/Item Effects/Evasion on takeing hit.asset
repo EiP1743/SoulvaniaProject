@@ -15,4 +15,4 @@ MonoBehaviour:
   effectDescription: "\u653B\u6483\u3092\u53D7\u3051\u308B\u305F\u3073\u306B\u56DE\u907F\u7387\u304C\u5897\u52A0\u3059\u308B\u3002"
   buffType: 9
   buffAmount: 15
-  buffDuration: 1.5
+  buffDuration: 30
