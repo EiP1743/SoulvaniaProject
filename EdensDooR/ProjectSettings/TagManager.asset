@@ -17,7 +17,7 @@ TagManager:
   - Enemy
   - Sword
   - Item
-  - 
+  - Underground
   - 
   - 
   - 
@@ -66,4 +66,7 @@ TagManager:
     locked: 0
   - name: FX
     uniqueID: 1515849559
+    locked: 0
+  - name: Underground
+    uniqueID: 581437509
     locked: 0
