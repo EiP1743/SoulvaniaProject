@@ -1,7 +1,5 @@
 ScriptsOnlyBuild:
   usedScripts:
-    Assembly-CSharp-Editor.dll:
-    - HutongGames.PlayMakerEditor.EditorStartupPrefs
     Assembly-CSharp.dll:
     - AfterImageFX
     - Arrow_Controller
@@ -19,7 +17,6 @@ ScriptsOnlyBuild:
     - Clone_Skill_Controller
     - Crystal_Skill
     - Crystal_Skill_Controller
-    - CursolController
     - Dash_Skill
     - DeadZone
     - DeathBringerSpell_Controller
@@ -134,8 +131,10 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -609,8 +608,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 1662}
     - Class: 114
       Script: {instanceID: 2480}
-    - Class: 114
-      Script: {instanceID: 2494}
     - Class: 114
       Script: {instanceID: 3070}
     - Class: 114
@@ -2616,4 +2613,4 @@ ScriptsOnlyBuild:
   scenePathNames:
   - Assets/Scenes/TitleScene.unity
   - Assets/Scenes/GameScene.unity
-  playerPath: D:/Game/EdensDooR.exe
+  playerPath: D:/SoulvaniaProject/EdensDooR/Build/EdensDooR.exe

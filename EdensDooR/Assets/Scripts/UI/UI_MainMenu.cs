@@ -14,7 +14,7 @@ public class UI_MainMenu : MonoBehaviour
     {
         if (SaveManager.instance.HasSavedData() == false)
             continueButton.SetActive(false);
-        fadeAudioSource = GetComponent<AudioSource>();
+        AudioSource audioSource = GetComponent<AudioSource>();
     }
 
     protected void ContinueGame()

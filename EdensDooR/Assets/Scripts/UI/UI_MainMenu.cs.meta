@@ -3,7 +3,9 @@ guid: aba4a2ccfa5563d459a90653849d99a2
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - continueButton: {instanceID: 0}
+  - fadeScreen: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
